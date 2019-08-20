@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <Preference
+            android:key="@string/key_set_reminder"
+            android:summary="@string/summary_reminder"
+            android:title="@string/title_set_reminder" />
+
+        <Preference
+            android:key="@string/key_restart_progress"
+            android:summary="@string/summary_restart_progress"
+            android:title="@string/title_restart_progress" />
+
+        <Preference
+            android:key="@string/key_delete_alldata"
+            android:summary="@string/summary_delete_alldata"
+            android:title="@string/title_delete_data" />
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:summary="@string/summary_rate_us"
+            android:title="@string/title_Rate_us">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_faq" />
+        </Preference>
+
+        <Preference
+            android:key="@string/key_invite_friends"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_invite" />
+
+        <Preference
+            android:key="@string/key_privacy"
+            android:summary="@string/summary_privacy"
+            android:title="@string/title_privacy" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

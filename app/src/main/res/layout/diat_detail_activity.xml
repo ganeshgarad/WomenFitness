@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/snack_cardview"
+                android:layout_below="@+id/breakdast_cardview"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/icon_snack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_snack"/>
+                    <TextView
+                        android:id="@+id/tv_snack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/icon_snack"
+                        android:layout_marginLeft="20dp"
+                        android:text="Break Snack"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@+id/icon_snack" />
+                    <TextView
+                        android:id="@+id/snack_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/icon_snack"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/lunch_cardview"
+                android:layout_below="@id/snack_cardview"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/icon_lunch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_lunch"/>
+                    <TextView
+                        android:id="@+id/tv_lunch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/icon_lunch"
+                        android:layout_marginLeft="20dp"
+                        android:text="Lunch"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@+id/icon_lunch" />
+                    <TextView
+                        android:id="@+id/lunch_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/icon_lunch"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/breakdast_cardview"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/icon_breakfast"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_breakfast"/>
+                    <TextView
+                        android:id="@+id/tv_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/icon_breakfast"
+                        android:layout_marginLeft="20dp"
+                        android:text="Break Fast"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@+id/icon_breakfast" />
+                    <TextView
+                        android:id="@+id/breakfast_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/icon_breakfast"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/dinner_cardview"
+                android:layout_below="@+id/lunch_cardview"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/icon_dinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_dinner"/>
+                    <TextView
+                        android:id="@+id/tv_dinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/icon_dinner"
+                        android:layout_marginLeft="20dp"
+                        android:text="Dinner"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@+id/icon_dinner" />
+                    <TextView
+                        android:id="@+id/dinner_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/icon_dinner"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--       <Button
+                       android:id="@+id/done_diet"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@+id/dinner_cardview"
+                       android:layout_marginTop="10dp"
+                       android:layout_centerHorizontal="true"
+                       android:text="finish"/>-->
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/done_diet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_tick"
+        app:backgroundTint="@color/colorPrimary"
+        android:visibility="visible"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_alignParentEnd="true" />
+
+  <!--  <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/diet_detail_bottomAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/bannerunitid">
+    </com.google.android.gms.ads.AdView>-->
+
+</RelativeLayout>

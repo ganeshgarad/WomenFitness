@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="300dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Enter Detail"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:background="@drawable/back_ground_color"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:hint="Enter weight"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_style"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/edit_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter height"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/edit_weight"
+        android:background="@drawable/edit_text_style"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:background="@drawable/button_style"
+        android:drawablePadding="10dp"
+        android:textColor="#FFF"
+        android:id="@+id/buttondial"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_margin="3dp"
+        android:background="@drawable/button_style"
+        android:drawablePadding="10dp"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:id="@+id/buttoncancel"
+        />
+    </LinearLayout>
+</RelativeLayout>

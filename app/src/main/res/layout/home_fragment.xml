@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/day_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/body_challenge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="full body workout"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#03A9F4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABS Workout"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/abs_beginner_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/abs_beginner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_beginner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="abs beginner"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/abs_inter_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/abs_intermediate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_inter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="abs intermediate"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/abs_advance_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/abs_advanced"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="abs advance"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#03A9F4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEG Workout"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/leg_beginner_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/leg_beginner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_leg_beginner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="leg beginner"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/leg_inter_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/leg_intermediate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_leg_inter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="leg intermediate"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/leg_advance_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/leg_advanced"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_leg_advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="leg advance"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#03A9F4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARMS Workout"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/arms_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/arm_beginner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_arms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="arm exercise"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#03A9F4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTT Workout"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/butt_beginner_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/butt_beginner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_butt_beginner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="butt beginner"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/butt_inter_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/butt_intermediate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_butt_inter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="butt intermediate"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/butt_advance_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/butt_advanced"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_butt_advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="butt advance"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#03A9F4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHEST Workout"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/chest_cardview"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@drawable/body_challenge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_chest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="chest exercise"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_go_next"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>

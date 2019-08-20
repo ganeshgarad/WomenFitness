@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/mealphoto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/diet"
+        android:layout_below="@+id/toolbar1"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/days_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mealphoto">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
