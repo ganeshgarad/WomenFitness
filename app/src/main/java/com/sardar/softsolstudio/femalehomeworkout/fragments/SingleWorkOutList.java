@@ -1,5 +1,6 @@
 package com.sardar.softsolstudio.femalehomeworkout.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,6 +16,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sardar.softsolstudio.femalehomeworkout.R;
+import com.sardar.softsolstudio.femalehomeworkout.activities.ReadyToStart;
 import com.sardar.softsolstudio.femalehomeworkout.adapters.WorkListAdapter;
 import com.sardar.softsolstudio.femalehomeworkout.models.WorkoutDetailModel;
 
@@ -48,7 +50,7 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
 
     private void intial() {
         WorkoutList=new ArrayList<>();
-        StartBtn=view.findViewById(R.id.routine_start_button);
+        StartBtn=view.findViewById(R.id.workout_start_button);
         StartBtn.setOnClickListener(this);
         recyclerViewSingle = view.findViewById(R.id.single_workout_recyclerview);
         recyclerViewSingle.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -59,7 +61,11 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.routine_start_button:
+            case R.id.workout_start_button:
+                Intent intent=new Intent(getContext(), ReadyToStart.class);
+                //intent.putExtra("ID",WorkoutId);
+                intent.putExtra("plan",exercise);
+                startActivity(intent);
                 break;
         }
     }

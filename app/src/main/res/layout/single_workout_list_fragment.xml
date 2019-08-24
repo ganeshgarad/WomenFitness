@@ -11,12 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_above="@+id/routine_start_button">
+        android:layout_above="@+id/workout_start_button">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <Button
-        android:id="@+id/routine_start_button"
+        android:id="@+id/workout_start_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start WorkOut"

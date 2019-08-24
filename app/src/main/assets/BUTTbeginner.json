@@ -1,14 +1,14 @@
 [
-     {
+  {
     "calories": 12.05,
     "display": "High Knees",
     "id": 1,
     "turns": "20",
     "name": "high_knees.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fhigh_knees.gif?alt=media&token=b5fc21e6-db95-430c-aacd-f8c3d36590d8",
-    "info":"High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
-    "howTo":"This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
-    "correctForm":"Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
+    "info": "High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
+    "howTo": "This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
+    "correctForm": "Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
     "tts": [
       {
         "text": "High Knees is a very good full body cardio vascular exercise very effective for fat burning",
@@ -25,9 +25,9 @@
     "turns": "12",
     "name": "squats1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fsquats.gif?alt=media&token=8ba188b1-3bfe-465a-8bc1-3b369bc340b0",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -37,10 +37,10 @@
     "unit": 1,
     "isOnline": true
   },
-   {
+  {
     "id": 3,
     "unit": 1,
-    "lang": "12",
+    "turns": "12",
     "calories": 12.63,
     "display": "Hamstring Stretch",
     "tts": [
@@ -51,20 +51,21 @@
     ],
     "name": "hamstring_stretch.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fhamstring_stretch.gif?alt=media&token=f8b0e035-7ca5-4124-b949-619ea0b2f5c6",
-    "info":"Shoulder and back stretch is an effective exercise that treats your lower back pain and leg pain.",
-    "howTo":"Stand straight and extend right leg out in front of you in a position where foot heel is on the floor and toe towards the roof. Bend your back leg knee while supporting the knee with both palms. Slowly put weight on back leg knee while straightening your front leg until a stretch is felt in the hamstrings. Hold the stretch then repeat with left leg.",
-    "correctForm":"Keep your knees straight while stretching leg\nKeep your lower back and hips flat",
+    "info": "Shoulder and back stretch is an effective exercise that treats your lower back pain and leg pain.",
+    "howTo": "Stand straight and extend right leg out in front of you in a position where foot heel is on the floor and toe towards the roof. Bend your back leg knee while supporting the knee with both palms. Slowly put weight on back leg knee while straightening your front leg until a stretch is felt in the hamstrings. Hold the stretch then repeat with left leg.",
+    "correctForm": "Keep your knees straight while stretching leg\nKeep your lower back and hips flat",
     "isOnline": false
   },
-   {
+  {
     "calories": 12.63,
     "display": "Plank Back Kick Left",
     "id": 4,
     "turns": "12",
     "name": "plank_back_kick_left1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fplank_back_kick_left.gif?alt=media&token=1dffcbcf-ca32-4e25-bd90-c83785619f5b",
-    "info":"",
-    "howTo":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -81,9 +82,9 @@
     "turns": "12",
     "name": "plank_back_kick_right1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fplank_back_kick_right.gif?alt=media&token=97349bf8-6eab-46d7-b348-c1144ef5bf52",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -100,9 +101,9 @@
     "turns": "12",
     "name": "reverse_plank1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Freverse_plank.gif?alt=media&token=ddd5ed64-a4ed-4d5e-a966-346b65002c54",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -126,21 +127,21 @@
     ],
     "name": "quad_stretch1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fquad_stretch.gif?alt=media&token=632e440d-2c37-4008-90e8-a7490a888d07",
-    "info":"Quadricep stretch is an effective exercise that mainly targets your quads, hip flexors and ankles.",
-    "howTo":"Stand straight and shift your body weight to the left leg. Lift up your right foot, grasp it with your right hand from backside and feel the stretch in your quads by pulling it towards the hip. Hold the stretch then repeat with right leg.",
-    "correctForm":"Take deep breaths while stretching\nGrab the top of your foot with respective hand",
+    "info": "Quadricep stretch is an effective exercise that mainly targets your quads, hip flexors and ankles.",
+    "howTo": "Stand straight and shift your body weight to the left leg. Lift up your right foot, grasp it with your right hand from backside and feel the stretch in your quads by pulling it towards the hip. Hold the stretch then repeat with right leg.",
+    "correctForm": "Take deep breaths while stretching\nGrab the top of your foot with respective hand",
     "isOnline": false
   },
-   {
+  {
     "calories": 13.04,
     "display": "Mountain Climbers",
     "id": 8,
     "turns": "20",
     "name": "mountain_climbers1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fmountain_climbers.gif?alt=media&token=b5d98880-bf2c-4504-9bee-b73d356b03c3",
-    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
-    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
-    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "info": "Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo": "Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm": "Your hips should not drop nor your back should arch\nPrevent your head from dropping",
     "tts": [
       {
         "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
@@ -150,16 +151,16 @@
     "unit": 1,
     "isOnline": true
   },
-   {
+  {
     "calories": 12.4287,
     "display": "Plank Jacks",
     "id": 9,
     "turns": "20",
     "name": "plank_jacks1.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fplank_jacks.gif?alt=media&token=0dd35e0f-a612-4fd1-9c0b-7a2dab1fe8e9",
-    "info":"Plank jack is cardio exercise that primarily targets abs and strengthens the upper body, lower body and core. This exercise also helps in cardiovascular endurance, accelerate the heart rate and burn more calories.",
-    "howTo":"Get settled in a pushup position and make your body into a straight line from head to toe. Press your toes forcefully into the floor and jump your feets outwards to spread your legs out without moving your torso. Then jump again with your feets and bring your legs back together. Make sure to keep your lower abs tight as you jack your feet.",
-    "correctForm":"Keep your body in straight position, don’t arch your back\nAs you move your legs outwards, don’t allow your torso to rotate.",
+    "info": "Plank jack is cardio exercise that primarily targets abs and strengthens the upper body, lower body and core. This exercise also helps in cardiovascular endurance, accelerate the heart rate and burn more calories.",
+    "howTo": "Get settled in a pushup position and make your body into a straight line from head to toe. Press your toes forcefully into the floor and jump your feets outwards to spread your legs out without moving your torso. Then jump again with your feets and bring your legs back together. Make sure to keep your lower abs tight as you jack your feet.",
+    "correctForm": "Keep your body in straight position, don’t arch your back\nAs you move your legs outwards, don’t allow your torso to rotate.",
     "tts": [
       {
         "text": "Plank Jacks targets core abs hip flexors and calf muscles",
@@ -169,16 +170,16 @@
     "unit": 1,
     "isOnline": false
   },
-   {
+  {
     "calories": 12.63,
     "display": "Elevated Split Squat Left",
     "id": 10,
     "turns": "18",
     "name": "elevated_split_squat_left.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Felevated_split_squat_left.gif?alt=media&token=8fea3ec2-6969-4136-8588-1dbc9498505c",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -195,9 +196,9 @@
     "turns": "18",
     "name": "elevated_split_squat_right.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Felevated_split_squat_right.gif?alt=media&token=51fccada-5f5c-4e10-a61d-5f15382e64bf",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -214,9 +215,9 @@
     "turns": "18",
     "name": "donkey_kick_left.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdonkey_kick_left.gif?alt=media&token=459b69f4-b8d5-4632-8ae1-77622faa97d4",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -233,9 +234,9 @@
     "turns": "18",
     "name": "donkey_kick_right.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdonkey_kick_right.gif?alt=media&token=b89f1444-7bce-4cca-afb0-7872efd41f95",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "info": "",
+    "howTo": "",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -245,7 +246,7 @@
     "unit": 1,
     "isOnline": false
   },
-   {
+  {
     "id": 13,
     "unit": 1,
     "turns": "12",
@@ -259,9 +260,9 @@
     ],
     "name": "downward_upward_dog.gif",
     "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdownward_upward_dog.gif?alt=media&token=e0df61a4-5883-434b-b227-936ed0056880",
-    "info":"Downward upward dog is an exercise that primarily targets your back, hamstrings, chest and shoulders.",
-    "howTo":"Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
-    "correctForm":"Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
+    "info": "Downward upward dog is an exercise that primarily targets your back, hamstrings, chest and shoulders.",
+    "howTo": "Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
+    "correctForm": "Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
     "isOnline": false
   }
 ]

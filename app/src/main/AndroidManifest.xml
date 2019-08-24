@@ -32,6 +32,11 @@
         <activity android:name=".activities.SettingsActivity"/>
         <activity android:name=".activities.HistoryCalenderFragment"/>
         <activity android:name=".activities.ReportsBMIactivity"/>
+        <activity android:name=".activities.CongratsWorkout"/>
+        <activity android:name=".activities.ReadyToStart"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.WorkoutMainActivity"
+            android:screenOrientation="portrait"/>
 
         <!-- Register the Alarm Receiver -->
         <receiver android:name=".utils.AlarmReceiver"

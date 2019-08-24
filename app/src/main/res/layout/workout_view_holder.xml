@@ -29,7 +29,7 @@
             android:fontFamily="@font/centurygothicregular"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@+id/caTbackgroung_img"
+            app:layout_constraintEnd_toStartOf="@+id/gifview_workout"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -76,7 +76,7 @@
             android:fontFamily="@font/centurygothicregular"
             android:textColor="#000"
             android:textSize="14sp"
-            app:layout_constraintEnd_toStartOf="@+id/caTbackgroung_img"
+            app:layout_constraintEnd_toStartOf="@+id/gifview_workout"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_displayname"
