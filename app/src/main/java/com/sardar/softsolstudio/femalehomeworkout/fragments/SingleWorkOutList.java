@@ -31,15 +31,17 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
     View view;
     RecyclerView recyclerViewSingle;
     Button StartBtn;
-    String exercise="";
+    String exercise="",daypoistion="",planno="";
     List<WorkoutDetailModel> WorkoutList;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.single_workout_list_fragment,container,false);
         if (getArguments() != null) {
-            exercise = getArguments().getString("lebal");
-            Log.d("singin", "LOVE" + exercise);
+            exercise = getArguments().getString("plan");
+            daypoistion = getArguments().getString("position");
+            planno = getArguments().getString("lebal");
+            Log.d("singin", "LOVE WORKOUT" + exercise+" "+planno+" "+daypoistion);
         } else {
             Toast.makeText(getActivity(), "Basic info not save", Toast.LENGTH_SHORT).show();
         }

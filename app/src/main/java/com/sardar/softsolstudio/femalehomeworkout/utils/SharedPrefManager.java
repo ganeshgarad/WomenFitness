@@ -104,4 +104,27 @@ public class SharedPrefManager {
         WeightHeightModel obj = gson.fromJson(json, WeightHeightModel.class);
         return obj;
     }
+
+    public boolean addWorkDaysToPref(ArrayList<DaysModel> daysModel) {
+
+        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(daysModel);
+        editor.putString(KEY_WORK_DAYS, json);
+        editor.apply();
+        // savePersonId(studentModel.getPerson_id());
+        return true;
+    }
+
+    public List<DaysModel> getWorkdays() {
+        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        Gson gson = new Gson();
+        List<DaysModel> productFromShared = new ArrayList<>();
+        String json = sharedPreferences.getString(KEY_WORK_DAYS, "");
+        Type type = new TypeToken<List<DaysModel>>() {}.getType();
+        productFromShared = gson.fromJson(json, type);
+        // DaysModel obj = gson.fromJson(json, DaysModel.class);
+        return productFromShared;
+    }
 }

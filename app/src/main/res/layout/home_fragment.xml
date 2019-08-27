@@ -12,7 +12,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:id="@+id/day_cardview"
+        android:id="@+id/day_challenge_cardview"
         android:layout_height="140dp"
         android:layout_margin="8dp"
         app:cardCornerRadius="10dp"

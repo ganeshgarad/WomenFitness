@@ -18,7 +18,7 @@ import com.sardar.softsolstudio.femalehomeworkout.activities.ReadyToStart;
 
 public class HomeFragment extends Fragment implements View.OnClickListener{
     View view;
-    CardView abs_beginner,abs_inter,abs_advance,arm_cardview,butt_beginner,butt_inter,butt_advance,chest_cardview,leg_beginner,leg_inter,leg_advance;
+    CardView daysChallenge,abs_beginner,abs_inter,abs_advance,arm_cardview,butt_beginner,butt_inter,butt_advance,chest_cardview,leg_beginner,leg_inter,leg_advance;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -39,6 +39,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         leg_advance=view.findViewById(R.id.leg_advance_cardview);
         leg_beginner=view.findViewById(R.id.leg_beginner_cardview);
         leg_inter=view.findViewById(R.id.leg_inter_cardview);
+        daysChallenge=view.findViewById(R.id.day_challenge_cardview);
+        daysChallenge.setOnClickListener(this);
         abs_beginner.setOnClickListener(this);
         abs_inter.setOnClickListener(this);
         abs_advance.setOnClickListener(this);
@@ -93,6 +95,16 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 break;
             case R.id.chest_cardview:
                 CallFragment("CHEST workout");
+                break;
+            case R.id.day_challenge_cardview:
+                DaysWorkoutListFragment fragment3=new DaysWorkoutListFragment();
+                Bundle args3 = new Bundle();
+                args3.putString("lebal", "Day Challenge");
+                fragment3.setArguments(args3);
+                FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+                fragmentTransaction3.replace(R.id.main_frame, fragment3);
+                fragmentTransaction3.addToBackStack("forgetpass_fragment");
+                fragmentTransaction3.commit();
                 break;
 
         }

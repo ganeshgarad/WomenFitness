@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/daysphoto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/body_challenge"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/days_workout_recycler_view"
+        android:layout_below="@id/daysphoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+ <!--   <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/days_bottomAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/bannerunitid">
+    </com.google.android.gms.ads.AdView>-->
+</RelativeLayout>
