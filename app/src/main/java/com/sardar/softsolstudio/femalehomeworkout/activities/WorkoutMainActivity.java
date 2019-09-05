@@ -26,16 +26,24 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.sardar.softsolstudio.femalehomeworkout.R;
+import com.sardar.softsolstudio.femalehomeworkout.models.DaysModel;
 import com.sardar.softsolstudio.femalehomeworkout.utils.DatabaseHelper;
+import com.sardar.softsolstudio.femalehomeworkout.utils.SharedPrefManager;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
@@ -43,7 +51,7 @@ import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
 public class WorkoutMainActivity extends AppCompatActivity implements View.OnClickListener {
-    String plan="";
+    String plan="",title="",position="",video_url="";
     Bundle bundle;
     int counter = 1;
     int Total;
@@ -60,6 +68,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
     TextToSpeech textToSpeech12;
     DatabaseHelper db;
     MediaPlayer mp;
+    InterstitialAd interstitialAd;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,12 +76,19 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
         bundle = getIntent().getExtras();
         if (bundle != null) {
             plan = bundle.getString("plan");
-            Log.d("id of Work", "is this" + plan);
+            title = bundle.getString("title");
+            position = bundle.getString("position");
+            Log.d("id of Work", "is this" + plan+title+position);
         }
         initialization();
     }
 
     private void initialization() {
+        MobileAds.initialize(this,getString(R.string.ApAdId));
+        AdRequest adRequest=new AdRequest.Builder().build();
+        interstitialAd =new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.interstitialunitid));
+        interstitialAd.loadAd(adRequest);
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
@@ -115,7 +131,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
         final FloatingActionButton fabdone = findViewById(R.id.done_workout);
         fabdone.setOnClickListener(this);
         toolbar = findViewById(R.id.Routine_guide_toolbar);
-        toolbar.setTitle(plan);
+        toolbar.setTitle(title);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -123,6 +139,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
         w_desc = findViewById(R.id.Wdetails_text);
         w_turn = findViewById(R.id.W_turns_text);
         video_link = findViewById(R.id.video_link);
+        video_link.setOnClickListener(this);
         counter_count = findViewById(R.id.counter_count);
         gifImageView=findViewById(R.id.animation_imageview);
         get_data(counter);
@@ -150,6 +167,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
                     w_turn.setText("Truns: " + jsonObject.getString("turns"));
                     counter_count.setText(counter + "/" + jsonArray.length());
                     w_desc.setText(jsonObject.getString("howTo"));
+                    video_url=jsonObject.getString("url");
                     try {
                         GifDrawable gifFromAssets = new GifDrawable(getAssets(), jsonObject.getString("name"));
                         gifImageView.setBackground(gifFromAssets);
@@ -203,17 +221,73 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
                     textToSpeech.shutdown();
                     stopthread();
                     mp.release();
+                    if (position != null) {
+                        List<DaysModel> daysModel = SharedPrefManager.getInstance(WorkoutMainActivity.this).getWorkdays();
+                        ArrayList<DaysModel> DaysModelsList = new ArrayList<DaysModel>();
+                        DaysModelsList.addAll(daysModel);
+                        String status = DaysModelsList.get(Integer.parseInt(position)).getStatus();
+                        Log.d("DetailGuide Activity", "status id" + status);
+                        if (TextUtils.equals(status, "false")) {
+                            DaysModelsList.get(Integer.parseInt(position)).setStatus("true");
+                            SharedPrefManager.getInstance(WorkoutMainActivity.this).RemoveWprkoutDays();
+                            if (SharedPrefManager.getInstance(WorkoutMainActivity.this).addWorkDaysToPref(DaysModelsList)) {
+                                Log.d("MealPlandone", "Add to Pref");
+                                // fabdone.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
+                            }
+                        }
+                    }
                     String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-                    long id = db.insertNote(plan, mydate);
+                    long id = db.insertNote(title, mydate);
                     Log.d("Detail Activity", "Add to Histroy" + mydate);
                     if (id != 0) {
                         Log.d("Detail Activity", "Add to Histroy");
                     }
-                    Intent intent = new Intent(WorkoutMainActivity.this, CongratsWorkout.class);
-                    intent.putExtra("workout", plan);
-                    startActivity(intent);
-                    finish();
+
+                    if (interstitialAd.isLoaded()) {
+                        interstitialAd.show();
+                    } else {
+                        Intent intent = new Intent(WorkoutMainActivity.this, CongratsWorkout.class);
+                        intent.putExtra("workout", plan);
+                        startActivity(intent);
+                        finish();
+                    }
+                    interstitialAd.setAdListener(new AdListener() {
+                        @Override
+                        public void onAdClosed() {
+                            super.onAdClosed();
+                            Intent intent = new Intent(WorkoutMainActivity.this, CongratsWorkout.class);
+                            intent.putExtra("workout", plan);
+                            startActivity(intent);
+                            finish();
+                        }
+                    });
+
+
                 }
+                break;
+            case R.id.video_link:
+                if (interstitialAd.isLoaded()){
+                    interstitialAd.show();
+                }else {
+
+                    Intent intent = new Intent(WorkoutMainActivity.this, YoutubeVideo.class);
+                    intent.putExtra("video_id",video_url );
+                    startActivity(intent);
+                    stopthread();
+
+                }
+                interstitialAd.setAdListener(new AdListener(){
+                    @Override
+                    public void onAdClosed() {
+                        super.onAdClosed();
+                        Intent intent = new Intent(WorkoutMainActivity.this, YoutubeVideo.class);
+                        intent.putExtra("video_id",video_url );
+                        startActivity(intent);
+                        stopthread();
+
+                    }
+                });
+
                 break;
         }
     }
@@ -238,7 +312,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
         mProgress.setSecondaryProgress(100); // Secondary Progress
         mProgress.setMax(100); // Maximum Progress
         mProgress.setProgressDrawable(drawable);
-        int speechStatus = textToSpeech.speak("Take Rest 30 seconds", TextToSpeech.QUEUE_FLUSH, null);
+        int speechStatus = textToSpeech.speak("Next exercise in 30 seconds get ready", TextToSpeech.QUEUE_FLUSH, null);
         if (speechStatus == TextToSpeech.ERROR) {
             Log.e("TTS", "Error in converting Text to Speech!");
         }
@@ -277,6 +351,9 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
                 //Convert milliseconds into hour,minute and seconds
                 String hms = String.format("%02d:%02d:%02d", TimeUnit.MILLISECONDS.toHours(millis), TimeUnit.MILLISECONDS.toMinutes(millis) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millis)), TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis)));
                 time.setText(hms);//set text
+                if (TextUtils.equals(hms, "00:00:10")) {
+                    int speechStatus = textToSpeech.speak("Next exercise in 10 seconds get ready", TextToSpeech.QUEUE_FLUSH, null);
+                }
                 if (TextUtils.equals(hms, "00:00:03")) {
                     int speechStatus = textToSpeech.speak("3", TextToSpeech.QUEUE_FLUSH, null);
                 }
@@ -465,7 +542,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
 
     }
     private void ShowDialogProgress() {
-        mp.release();
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder.setTitle("Confirm");
@@ -477,6 +554,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
                 // Do nothing but close the dialog
                 textToSpeech.shutdown();
                 textToSpeech12.shutdown();
+                mp.release();
                 finish();
             }
         });
@@ -504,7 +582,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
     @Override
     protected void onResume() {
         super.onResume();
-       /* if (!w_turn.getText().toString().isEmpty()) {
+        if (!w_turn.getText().toString().isEmpty()) {
             if (w_turn.getText().toString().endsWith("Sec")){
                 runningThread=true;
                 String turnsValue = w_turn.getText().toString();
@@ -518,6 +596,6 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
                 Log.d("Detail activity", "Lets Start next"+turnsValue);
                 TurnsCounter(turnsValue);
             }
-        }*/
+        }
     }
 }

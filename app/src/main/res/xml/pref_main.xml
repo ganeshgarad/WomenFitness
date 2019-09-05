@@ -38,10 +38,9 @@
         <!-- preference opens url in browser -->
         <Preference
             android:summary="@string/summary_rate_us"
-            android:title="@string/title_Rate_us">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="@string/url_faq" />
+            android:title="@string/title_Rate_us"
+            android:key="@string/key_rate_us">
+
         </Preference>
 
         <Preference

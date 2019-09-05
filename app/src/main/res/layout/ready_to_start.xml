@@ -2,16 +2,24 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/take_rest">
 
-
-
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nativead"
+        ads:adUnitId="ca-app-pub-2953492676760965/6461386860"
+        ads:adSize="360x100"
+         />
+<!--    ads:adSize="MEDIUM_RECTANGLE"-->
     <ProgressBar
         android:id="@+id/circularProgressbarReady"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_height="150dp"
         android:indeterminate="false"
         android:max="100"
         android:progress="50"

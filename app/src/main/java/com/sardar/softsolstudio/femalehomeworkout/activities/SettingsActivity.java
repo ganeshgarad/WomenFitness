@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.Preference;
@@ -16,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 
+import com.sardar.softsolstudio.femalehomeworkout.BuildConfig;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.fragments.SetReminder;
 import com.sardar.softsolstudio.femalehomeworkout.utils.SharedPrefManager;
@@ -57,6 +59,19 @@ public class SettingsActivity  extends AppCompatActivity {
             Preference deletData = findPreference(getString(R.string.key_delete_alldata));
             Preference inviteFriends = findPreference(getString(R.string.key_invite_friends));
             Preference privacy = findPreference(getString(R.string.key_privacy));
+            Preference rateUs = findPreference(getString(R.string.key_rate_us));
+
+            rateUs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                public boolean onPreferenceClick(Preference preference) {
+                    final String appPackageName = getActivity().getPackageName(); // getPackageName() from Context or Activity object
+                    try {
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                    } catch (android.content.ActivityNotFoundException anfe) {
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                    }
+                   return true;
+                }
+            });
             myPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 public boolean onPreferenceClick(Preference preference) {
                     sendFeedback(getActivity());
@@ -67,11 +82,17 @@ public class SettingsActivity  extends AppCompatActivity {
             inviteFriends.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 public boolean onPreferenceClick(Preference preference) {
                     // sendFeedback(getActivity());
-                    String url = "https://play.google.com/store/apps/details?id=com.filetransfer.sharefiles";
-                    Intent email = new Intent(Intent.ACTION_SEND);
-                    email.putExtra(Intent.EXTRA_TEXT, "Check out this awesome Application  " + url);
-                    email.setType("text/plain");
-                    startActivity(Intent.createChooser(email, "Choose an Email client :"));
+                    try {
+                        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                        shareIntent.setType("text/plain");
+                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Female Fitness App");
+                        String shareMessage= "\nLet me recommend you this application\n\n";
+                        shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n";
+                        shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+                        startActivity(Intent.createChooser(shareIntent, "choose one"));
+                    } catch(Exception e) {
+                        //e.toString();
+                    }
                     return true;
                 }
             });

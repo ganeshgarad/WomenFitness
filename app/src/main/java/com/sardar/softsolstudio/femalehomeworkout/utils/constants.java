@@ -85,4 +85,132 @@ public class constants {
             "        <p>\n" +
             "         I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.\n" +
             "\n";
+
+   public static String guide = " <h3><b>1. Warm up</b>\n" +
+           "        </h3>\n" +
+           "        <p>\n" +
+           "  <img src ='guide1.png'>\n" +
+           "\n* Most warm up don't take very long, just two-three\n" +
+           "minutes, five minutes tops. To benefit us the most a\n" +
+           "warm-up should work the same muscles we will be\n" +
+           "engaging during the main workout - they should\n" +
+           "include lighter exercises or a toned down version of\n" +
+           "the training ahead.\n" +
+           "* The temperature of when and where you workout\n" +
+           "plays a difference. In winter our body keeps most of\n" +
+           "the blood flow away from our extremities so warming\n" +
+           "up will take longer. In summer with higher ambient\n" +
+           "temperatures, the body is already half-warmed up and\n" +
+           "our muscles are loose. Many Olympic athletes tend to\n" +
+           "'chase the sun' for that reason training in Australia and\n" +
+           "California so they spend all year in a summer\n" +
+           "environment.\n" +
+           "* Tip: If you are short on time and you are doing a\n" +
+           "bodyweight workout, you can forgo a specific warm-up\n" +
+           "and do the first set of the circuit moving at a slower\n" +
+           "pace, jumping lower and moving slower in general\n" +
+           "turning the first set into a warm-up." +
+           "            <br>\n" +
+           "            <br>\n" +
+           "        </p>\n" +
+           "        <h4 class=\"margin-bottom-0\">\n" +
+           "         2. Stretching\n" +
+           "        </h4>\n" +
+           "        <p>\n" +
+           "  <img src ='guide2.png'>\n" +
+           "\n* Everyone can get flexible if they work at it. Some\n" +
+           "people have a natural gift for flexibility others have to\n" +
+           "struggle to gain every little bit but everyone can get\n" +
+           "there. It takes persistence and regular training and the\n" +
+           "muscles adapt and respond.\n" +
+           "* The best time to stretch is post-workout when our\n" +
+           "muscles are completely relaxed, thoroughly warmed\n" +
+           "up and capable of giving us the most stretch, easiest.\n" +
+           "When muscles are really well warmed up they exhibit a\n" +
+           "high degree of plasticity. That means that not only do\n" +
+           "they stretch but after stretching and cooling down they\n" +
+           "maintain an increased range of movement and display\n" +
+           "greater flexibility.\n" +
+           "* This is the reason why everyone should stretch:\n" +
+           "range of movement. Whether you are a boxer or a\n" +
+           "ballet dancer your sport will necessitate your muscles\n" +
+           "performing by working through a range of motion.\n" +
+           "Muscles that are tight and constricted tend to work\n" +
+           "against each other to perform the move. That means\n" +
+           "that energy which should be used in the move itself is\n" +
+           "actually soaked up by fighting against the muscles\n" +
+           "themselves and the supporting muscle groups. This\n" +
+           "leeches away power." +
+           "            <br>\n" +
+           "            <br>\n" +
+           "        </p>\n" +
+           "        <h4 class=\"margin-bottom-0\">\n" +
+           "         3. Steps workout\n" +
+           "        </h4>\n" +
+           "        <p>\n" +
+           "        * Step 1: Warm up\n" +
+           "* Step 2: Choose a plan you want to workout (28 days\n" +
+           "of challenge or or Abs, Arm, Butt, Leg, Chest from\n" +
+           "Beginner to Advanced)\n" +
+           "* Step 3: Stretching (Optional)" +
+           "            <br>\n" +
+           "            <br>\n" +
+           "        </p>\n" +
+           "        <h4 class=\"margin-bottom-0\">\n" +
+           "         4. Best time to workout\n" +
+           "        </h4>\n" +
+           "        <p>\n" +
+           "  <img src ='chest.jpg'>\n"+
+           "\n* 1. Morning workout\n" +
+           "-Many people find morning workouts to be their\n" +
+           "preferred choice for a variety of reasons. One of the\n" +
+           "most common reasons cited is that when you exercise\n" +
+           "in the morning, you get your workout out of the way.\n" +
+           "Science also backs up morning workouts in some\n" +
+           "regards, as morning exercise tends to increase your\n" +
+           "energy for the rest of the day.\n" +
+           "-In fact, a morning workout is a lot like breakfast in that\n" +
+           "it gets your metabolism going. Simply put, you burn\n" +
+           "more calories all day long just from the sheer fact of\n" +
+           "exercising in the morning. A study conducted at\n" +
+           "Appalachian State University also found that morning\n" +
+           "workouts are preferable if you want a better niqht's\n" +
+           "One more reason to go with morning is that it's been\n" +
+           "shown that people who work out in the morning are\n" +
+           "overall more likely to be consistent with their workouts.\n" +
+           "So pack your breakfast in your meal management bag,\n" +
+           "and dig in post-morning workout session.\n" +
+           "-Morning workouts certainly have their benefits. But\n" +
+           "plenty of people like to exercise at night as well, and\n" +
+           "surely science backs that up to some degree too. The\n" +
+           "real factor to consider is that consistency is key, no\n" +
+           "matter when you choose to work out. But studies have\n" +
+           "shown that different fitness goals are better achieved\n" +
+           "at certain parts of the day, and this is where working\n" +
+           "out later in the day comes into play.\n" +
+           "* 2. Afternoon and night workout\n" +
+           "-Strength and endurance are both higher in the\n" +
+           "afternoon, while the likelihood of injuries is decreased.\n" +
+           "Exercising when body temperature is lowest, which is\n" +
+           "typically later in the day, around 4 or 5 p.m., results in\n" +
+           "improved performance and increased power. At this\n" +
+           "time of day, muscles are more flexible since your body\n" +
+           "is more warmed up than it is in the morning. Your\n" +
+           "reaction time is likely to be quicker, while heart rate\n" +
+           "and blood pressure are low. Protein synthesis peaks at\n" +
+           "this time of day, as well. Based on this, intense\n" +
+           "workouts such as weight training or hard cardio should\n" +
+           "take place during the late afternoon or evening.\n" +
+           "-Not only that, but the calories provided by the small\n" +
+           "meals you have packed in your meal management bag\n" +
+           "are the perfect fuel for a nighttime workout. A study\n" +
+           "conducted at the Clinical Research Center of the\n" +
+           "University of Chicago found that those who hit the gym\n" +
+           "after work are more likely to achieve a higher degree of\n" +
+           "fitness than early bird exercisers. Blood samples\n" +
+           "showed that levels of certain endocrine hormones\n" +
+           "(cortisol and thyrotropin) significantly increased in\n" +
+           "those working out at night. Chalk this up as another\n" +
+           "reason to engage in more strenuous activity at night.\n" +
+           "            <br>\n";
 }

@@ -24,6 +24,9 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.models.WeightHeightModel;
 import com.sardar.softsolstudio.femalehomeworkout.utils.SharedPrefManager;
@@ -38,6 +41,7 @@ public class ReportsBMIactivity extends AppCompatActivity implements View.OnClic
     String bodyweight = "65", bodyheight = "5.9";
     ArrayList<WeightHeightModel> WEHEList;
     WeightHeightModel daysModel=new WeightHeightModel();
+    AdView LH_bottom;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -71,6 +75,10 @@ public class ReportsBMIactivity extends AppCompatActivity implements View.OnClic
                 Log.d("MealPlan", "Add to Pref");
             }
         }
+        MobileAds.initialize(ReportsBMIactivity.this,getString(R.string.ApAdId));
+        AdRequest adRequest=new AdRequest.Builder().build();
+        LH_bottom=findViewById(R.id.report_bottom);
+        LH_bottom.loadAd(adRequest);
         BindData();
         calcBMI();
     }

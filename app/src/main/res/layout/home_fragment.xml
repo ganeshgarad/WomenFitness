@@ -10,6 +10,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/hometop"/>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:id="@+id/day_challenge_cardview"
@@ -19,7 +24,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/body_challenge"
+            android:background="@drawable/fullbody"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -51,7 +56,7 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="#03A9F4"/>
+        android:background="#1E1A1A"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -70,7 +75,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/abs_beginner"
+            android:background="@drawable/absbeginner"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -107,7 +112,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/abs_intermediate"
+            android:background="@drawable/absinter"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -144,7 +149,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/abs_advanced"
+            android:background="@drawable/absadvance"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -176,7 +181,7 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="#03A9F4"/>
+        android:background="#1E1A1A"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -195,7 +200,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/leg_beginner"
+            android:background="@drawable/legbeginner"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -232,7 +237,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/leg_intermediate"
+            android:background="@drawable/legbeginner2"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -269,7 +274,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/leg_advanced"
+            android:background="@drawable/legadvanced"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -300,7 +305,7 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="#03A9F4"/>
+        android:background="#1E1A1A"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -351,7 +356,7 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="#03A9F4"/>
+        android:background="#1E1A1A"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -371,7 +376,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/butt_beginner"
+            android:background="@drawable/buttbeginner"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -408,7 +413,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/butt_intermediate"
+            android:background="@drawable/buttintermediate"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -445,7 +450,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/butt_advanced"
+            android:background="@drawable/buttadvance"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -476,7 +481,7 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="#03A9F4"/>
+        android:background="#1E1A1A"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -495,7 +500,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/body_challenge"
+            android:background="@drawable/chest"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -523,5 +528,15 @@
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/homebottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/bannerunitid">
+    </com.google.android.gms.ads.AdView>
 </LinearLayout>
 </ScrollView>

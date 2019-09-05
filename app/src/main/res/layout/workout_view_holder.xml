@@ -27,7 +27,7 @@
             android:text="TextView"
             android:textAllCaps="true"
             android:fontFamily="@font/centurygothicregular"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/textcolorHeader"
             android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@+id/gifview_workout"
             app:layout_constraintHorizontal_bias="0.0"

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sardar.softsolstudio.femalehomeworkout.R;
@@ -41,7 +42,7 @@ public class DaysAdapter  extends RecyclerView.Adapter<DaysAdapter.ViewHolder> {
         String status=daysModel.getStatus().toString();
         viewHolder.daytext.setText(daysModel.getDay());
         if (TextUtils.equals(status,"true")){
-            viewHolder.cardView.setBackgroundColor(Color.GREEN);
+            viewHolder.cardView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
         }
         viewHolder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override

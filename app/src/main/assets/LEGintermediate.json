@@ -1,33 +1,33 @@
 [
-    {
-        "calories": 12.63,
-        "display": "Hop Side To Side",
-        "id": 1,
-        "turns": "20",
-        "name": "hop_side_to_side.gif",
-        "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fhop_side_to_side.gif?alt=media&token=afa10b06-9b1e-475a-96c9-6373b0ddf89e",
-        "info":"",
-        "howTo":"",
-        "correctForm":"",
-        "tts": [
-          {
-            "text": "",
-            "time": "7"
-          }
-        ],
-        "unit": 1,
-        "isOnline": false
-      },
-     {
+  {
+    "calories": 12.63,
+    "display": "Hop Side To Side",
+    "id": 1,
+    "turns": "20",
+    "name": "hop_side_to_side.gif",
+    "url": "NTqBhdYuT6M",
+    "info": "",
+    "howTo": "Step 1: Begin in an athletic stance with feet about hip-width apart.\n Step 2: Begin by hopping to the right, and then immediately hopping to the left once your feet touch the ground.\nStep 3: Each direction is one rep.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
     "calories": 12.05,
     "display": "High Knees",
     "id": 2,
     "turns": "30",
     "name": "high_knees.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fhigh_knees.gif?alt=media&token=b5fc21e6-db95-430c-aacd-f8c3d36590d8",
-    "info":"High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
-    "howTo":"This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
-    "correctForm":"Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
+    "url": "whHxoB-AFYQ",
+    "info": "High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
+    "howTo": "This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
+    "correctForm": "Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
     "tts": [
       {
         "text": "High Knees is a very good full body cardio vascular exercise very effective for fat burning",
@@ -50,22 +50,22 @@
       }
     ],
     "name": "lunge_stretch.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Flunge_stretch.gif?alt=media&token=1c6fd111-1d9a-4e72-8ea8-f0c8efa4268b",
-    "info":"Lunge stretch is an exercise than primarily targets abs, glutes, quads and hamstrings.",
-    "howTo":"Stand straight, take a step forward then slowly bend both knees until your back knee touches the floor. Stand back up and repeat the motion with alternative leg.",
-    "correctForm":"While bending front knee, make 90 degree angle from thigh to leg\nMaintain your feet hip width apart",
+    "url": "rHHzHSmjLng",
+    "info": "Lunge stretch is an exercise than primarily targets abs, glutes, quads and hamstrings.",
+    "howTo": "Stand straight, take a step forward then slowly bend both knees until your back knee touches the floor. Stand back up and repeat the motion with alternative leg.",
+    "correctForm": "While bending front knee, make 90 degree angle from thigh to leg\nMaintain your feet hip width apart",
     "isOnline": false
   },
-   {
+  {
     "calories": 13.54,
     "display": "Jumping Jacks",
     "id": 4,
     "turns": "30",
     "name": "jumping_jacks.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fjumping_jacks.gif?alt=media&token=776db705-e0e4-45cd-93b8-f4f32cb89adb",
-    "info":"Jumping jack is a cardiovascular, full body warm up exercise as it helps loosening of the muscles.",
-    "howTo":"Stand upright. Your feet should be together and your hands by your sides. Begin exercise by raising both your hands simultaneously, up and above your head. While raising your hands jump off the floor and move your feet apart to a distance around twice that of shoulder width.\nWith your hands at the top and feet spread apart, immediately reverse your movement back to the starting position. Do this exercise in a fluid motion.",
-    "correctForm":"Try to synchronize the movement of your hands with your feet\nDo not pause during this exercise",
+    "url": "XR0xeuK5zBU",
+    "info": "Jumping jack is a cardiovascular, full body warm up exercise as it helps loosening of the muscles.",
+    "howTo": "Stand upright. Your feet should be together and your hands by your sides. Begin exercise by raising both your hands simultaneously, up and above your head. While raising your hands jump off the floor and move your feet apart to a distance around twice that of shoulder width.\nWith your hands at the top and feet spread apart, immediately reverse your movement back to the starting position. Do this exercise in a fluid motion.",
+    "correctForm": "Try to synchronize the movement of your hands with your feet\nDo not pause during this exercise",
     "tts": [
       {
         "text": "Jumping Jacks is a very good full body warm up exercise",
@@ -81,10 +81,10 @@
     "id": 5,
     "turns": "12",
     "name": "squats1.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fsquats.gif?alt=media&token=8ba188b1-3bfe-465a-8bc1-3b369bc340b0",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "aclHkVaku9U",
+    "info": "",
+    "howTo": "tand with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor. Your knees should be extended in the same direction as your tiptoes.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -107,10 +107,10 @@
       }
     ],
     "name": "march_jacks1.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fmarch_jacks.gif?alt=media&token=4e1be41b-5e64-43d3-9417-8fd4411963c8",
-    "info":"March jacks is a warm up exercise that primarily targets your abs, shoulders and thigh muscles.",
-    "howTo":"Stand straight and raise arms upwards parallel to your body with one thigh lift with knee bend that nearly touches your torso. Then bring your arms and leg back together to starting position and repeat the motion with other leg.",
-    "correctForm":"Keep your body in straight position, don’t arch your back\nKeep your head and neck straight",
+    "url": "qIDC7Ttfjn0",
+    "info": "March jacks is a warm up exercise that primarily targets your abs, shoulders and thigh muscles.",
+    "howTo": "Stand straight and raise arms upwards parallel to your body with one thigh lift with knee bend that nearly touches your torso. Then bring your arms and leg back together to starting position and repeat the motion with other leg.",
+    "correctForm": "Keep your body in straight position, don’t arch your back\nKeep your head and neck straight",
     "isOnline": false
   },
   {
@@ -119,10 +119,10 @@
     "id": 7,
     "turns": "12",
     "name": "donkey_kick_left.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdonkey_kick_left.gif?alt=media&token=459b69f4-b8d5-4632-8ae1-77622faa97d4",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "SJ1Xuz9D-ZQ",
+    "info": "",
+    "howTo": "Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg and squeeze your butt as much as you can. Go back to the start position and repeat the exercise.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -138,10 +138,10 @@
     "id": 8,
     "turns": "12",
     "name": "donkey_kick_right.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdonkey_kick_right.gif?alt=media&token=b89f1444-7bce-4cca-afb0-7872efd41f95",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "SJ1Xuz9D-ZQ",
+    "info": "",
+    "howTo": "Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg and squeeze your butt as much as you can. Go back to the start position and repeat the exercise.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -157,10 +157,10 @@
     "id": 9,
     "turns": "20",
     "name": "side_skaters1.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fside_skaters.gif?alt=media&token=fc4b2bb8-c26a-4106-9a69-112a99baf1ec",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "4RuxhVJ4-pg",
+    "info": "",
+    "howTo": "Start in a small squat. Jump sideways to the left, landing on your left leg. Bring your right leg behind to your left ankle, and don't let it touch the floor.Reverse direction by jumping to the right with your right leg. This completes one rep",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -176,10 +176,10 @@
     "id": 10,
     "turns": "12",
     "name": "elevated_split_squat_left.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Felevated_split_squat_left.gif?alt=media&token=8fea3ec2-6969-4136-8588-1dbc9498505c",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "fNJbRF_5P4A",
+    "info": "",
+    "howTo": "Begin by placing the top of your right foot on the bench, with your left leg straight. Bend your left knee, engage your right glute, and lower your pelvis toward the ground.Straighten your left leg and rise back up to the starting position. Complete three sets of 10-15 reps on each leg.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -195,10 +195,10 @@
     "id": 11,
     "turns": "12",
     "name": "elevated_split_squat_right.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Felevated_split_squat_right.gif?alt=media&token=51fccada-5f5c-4e10-a61d-5f15382e64bf",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "fNJbRF_5P4A",
+    "info": "",
+    "howTo": "Begin by placing the top of your left foot on the bench, with your right leg straight. Bend your right knee, engage your left glute, and lower your pelvis toward the ground.Straighten your right leg and rise back up to the starting position. Complete three sets of 10-15 reps on each leg.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -214,10 +214,10 @@
     "id": 13,
     "turns": "6",
     "name": "burpees.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fburpees.gif?alt=media&token=e4b6d2f8-9ba1-43c4-9457-3a910c8b8690",
-    "info":"Burpees is a plyometric exercise that targets the chest, shoulders, core and legs while also improving your cardiovascular strength.",
-    "howTo":"Start with your feet shoulder width apart. Bend down and put your hands on the floor. Kick both of your legs backwards simultaneously to go into a push up position. Lower your chest to ground as doing a push up, then jump both your feet back in simultaneously. Stand up and do a jump with both your hands facing the ceiling. Remember to do a soft landing.",
-    "correctForm":"Do not Arch your lower back when coming out of the push up position\nDo not skip your squat when moving from standing to burpee position",
+    "url": "dZgVxmf6jkA",
+    "info": "Burpees is a plyometric exercise that targets the chest, shoulders, core and legs while also improving your cardiovascular strength.",
+    "howTo": "Start with your feet shoulder width apart. Bend down and put your hands on the floor. Kick both of your legs backwards simultaneously to go into a push up position. Lower your chest to ground as doing a push up, then jump both your feet back in simultaneously. Stand up and do a jump with both your hands facing the ceiling. Remember to do a soft landing.",
+    "correctForm": "Do not Arch your lower back when coming out of the push up position\nDo not skip your squat when moving from standing to burpee position",
     "tts": [
       {
         "text": "Burpees is a highly effective fat burning exercise It raises heart rate and boosts body metabolism",
@@ -233,10 +233,10 @@
     "id": 14,
     "turns": "12",
     "name": "diagonal_squat_left.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdiagonal_squat_left.gif?alt=media&token=c4db357a-6635-49b8-a257-1f525a4fe40f",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "cJA8-z5bDbQ",
+    "info": "",
+    "howTo": "Stand on one leg.Bend your leg to 45 degrees.Reach your right arm diagonally across your body towards the left side of your knee.Return to center.Reach your left arm diagonally across your body towards the right side of your knee.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -252,10 +252,10 @@
     "id": 15,
     "turns": "12",
     "name": "diagonal_squat_right.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fdiagonal_squat_right.gif?alt=media&token=588f00e0-75ff-47eb-b1e6-1222d0c589a7",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "cJA8-z5bDbQ",
+    "info": "",
+    "howTo": "Stand on one leg.Bend your leg to 45 degrees.Reach your right arm diagonally across your body towards the left side of your knee.Return to center.Reach your left arm diagonally across your body towards the right side of your knee.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -271,10 +271,10 @@
     "id": 16,
     "turns": "10",
     "name": "plie_squat1.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fplie_squat.gif?alt=media&token=96cb7c36-9030-4d72-b778-b3b12179e0d5",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "KcK5vxSH8yw",
+    "info": "",
+    "howTo": "Stand with feet slightly wider than shoulder distance apart and toes turned out into a 45 degree angle.Bend knees and lower your torso, keeping your back straight and abs tight.Squeeze your glutes and come to standing position.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -290,10 +290,10 @@
     "id": 17,
     "turns": "12",
     "name": "fire_hydrant_left.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Ffire_hydrant_left.gif?alt=media&token=cf812fa6-129d-47f6-bb49-6a015f35d3ce",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "xctF7TdSlnY",
+    "info": "",
+    "howTo": "tart on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg to the side at a 90 degree angle.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -309,10 +309,10 @@
     "id": 18,
     "turns": "12",
     "name": "fire_hydrant_right.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Ffire_hydrant_right.gif?alt=media&token=555b7c83-e19d-442a-a3f8-9cdc69ef540b",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "xctF7TdSlnY",
+    "info": "",
+    "howTo": "Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg to the side at a 90 degree angle.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",
@@ -328,10 +328,10 @@
     "id": 19,
     "turns": "20",
     "name": "abductor_stretch.gif",
-    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fabductor_stretch.gif?alt=media&token=b197b3d8-aa44-4a18-879f-f56a2be466b8",
-    "info":"",
-    "howTo":"",
-    "correctForm":"",
+    "url": "FaCIHJxUjws",
+    "info": "",
+    "howTo": "Kneel onto your right knee and put your left foot in front of you such that your left knee is at 90 degrees.\nInhale and slide your right knee out to the side and back.\nExhale and left your chest up.",
+    "correctForm": "",
     "tts": [
       {
         "text": "",

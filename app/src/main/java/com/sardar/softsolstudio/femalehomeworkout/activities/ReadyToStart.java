@@ -19,6 +19,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.NativeExpressAdView;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.models.WorkoutDetailModel;
 
@@ -36,12 +40,13 @@ import pl.droidsonroids.gif.GifImageView;
 public class ReadyToStart extends AppCompatActivity {
     TextToSpeech textToSpeech;
     //DetailGuideActivity activity;
-    String WorkId = "", plan = "";
+    String WorkId = "", plan = "",title="",position="";
     CountDownTimer countDownTimer;
     Bundle bundle;
     TextView next_display_name,next_turns;
     GifImageView gifImageView;
     private Handler handler = new Handler();
+    NativeExpressAdView nativeExpressAdView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,8 +55,16 @@ public class ReadyToStart extends AppCompatActivity {
         if (bundle != null) {
           //  WorkId = bundle.getString("ID");
             plan = bundle.getString("plan");
+            title = bundle.getString("title");
+            position = bundle.getString("position");
             Log.d("id of Work", "is this" + WorkId + plan);
         }
+        nativeExpressAdView=(NativeExpressAdView) findViewById(R.id.nativead);
+        MobileAds.initialize(ReadyToStart.this,getString(R.string.ApAdId));
+        AdRequest adRequest=new AdRequest.Builder().build();
+        //nativeExpressAdView.setAdSize(new AdSize(280, 180));
+        //nativeExpressAdView.setAdUnitId("ca-app-pub-3940256099942544/2247696110");
+
         //activity=new DetailGuideActivity();
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.whistle_double);
         mp.start();
@@ -143,6 +156,8 @@ public class ReadyToStart extends AppCompatActivity {
 
                 Intent intent=new Intent(ReadyToStart.this, WorkoutMainActivity.class);
                 intent.putExtra("plan",plan);
+                intent.putExtra("title",title);
+                intent.putExtra("position",position);
                 startActivity(intent);
                 finish();
 
@@ -156,7 +171,7 @@ public class ReadyToStart extends AppCompatActivity {
                 //countdownTimerText.setText("TIME'S UP!!"); //On finish change timer text
             }
         }.start();
-
+        nativeExpressAdView.loadAd(adRequest);
     }
 
     @Override

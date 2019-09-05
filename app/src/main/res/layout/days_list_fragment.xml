@@ -8,8 +8,8 @@
     <ImageView
         android:id="@+id/daysphoto"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="@drawable/body_challenge"
+        android:layout_height="150dp"
+        android:background="@drawable/headericon2"
         />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -17,17 +17,18 @@
         android:layout_below="@id/daysphoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@id/daysworkout_bottomAd"
         android:layout_marginTop="10dp">
     </androidx.recyclerview.widget.RecyclerView>
 
- <!--   <com.google.android.gms.ads.AdView
+    <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/days_bottomAd"
+        android:id="@+id/daysworkout_bottomAd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
         ads:adUnitId="@string/bannerunitid">
-    </com.google.android.gms.ads.AdView>-->
+    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

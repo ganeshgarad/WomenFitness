@@ -49,7 +49,7 @@ public class DaysworkOutListAdapter extends RecyclerView.Adapter<DaysworkOutList
             holder.fabdone.setImageResource(R.drawable.ic_tick_not);
 
         }else if (TextUtils.equals(status,"coffee")){
-            holder.fabdone.setImageResource(R.drawable.ic_resting);
+            holder.fabdone.setImageResource(R.drawable.ic_relax);
 
         }
         holder.cardView.setOnClickListener(new View.OnClickListener() {
@@ -59,9 +59,9 @@ public class DaysworkOutListAdapter extends RecyclerView.Adapter<DaysworkOutList
                     AppCompatActivity activity = (AppCompatActivity) view.getContext();
                     Fragment myFragment = new SingleWorkOutList();
                     Bundle args = new Bundle();
-                    args.putString("lebal", daysModel.getDay());
+                    args.putString("plan", daysModel.getDay());
                     args.putString("position",String.valueOf(position));
-                    args.putString("plan",daysModel.getPlan());
+                    args.putString("lebal",daysModel.getPlan());
                     myFragment.setArguments(args);
                     activity.getSupportFragmentManager().beginTransaction().replace(R.id.main_frame, myFragment).addToBackStack(null).commit();
                 }else {

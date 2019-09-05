@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#F7379D</color>
-    <color name="colorPrimaryDark">#F7379D</color>
+    <color name="colorPrimary">#1E1A1A</color>
+    <color name="colorPrimaryDark">#1E1A1A</color>
     <color name="colorAccent">#D81B60</color>
     <color name="removediet">#FFB0CD</color>
     <color name="underweight">#9ABBDA</color>
@@ -11,7 +11,7 @@
     <color name="extremeobese">#D8414A</color>
 
 
-    <color name="textcolorHeader">#069ECF</color>
+    <color name="textcolorHeader">#F7379D</color>
     <color name="textColorPrimary">#000000</color>
     <color name="textColorSecondary">#A5A5A5</color>
 

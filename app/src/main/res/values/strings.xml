@@ -15,14 +15,11 @@
     <string name="menu_send">Send</string>
 
 
-
-
     <string name="sett_reminder_header">Set Reminder</string>
     <string name="sett_reminder_label">Remind Me</string>
     <string name="sett_reminder_desc">We will remind you daily basis</string>
     <string name="sett_reminder_time_label">Set Reminder Time</string>
     <string name="sett_reminder_time_content">8 : 00 PM</string>
-
 
 
     <!-- setting activity-->
@@ -47,6 +44,7 @@
     <string name="title_Rate_us">Rate Us</string>
     <string name="summary_rate_us">Rate Us on Play Store</string>
     <string name="key_send_feedback">key_send_feedback</string>
+    <string name="key_rate_us">key_rate_us</string>
     <string name="key_set_reminder">key_set_reminder</string>
     <string name="key_restart_progress">key_restart_progress</string>
     <string name="key_delete_alldata">key_delete_alldata</string>
@@ -56,4 +54,20 @@
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
     <string name="url_faq">https://web.whatsapp.com/</string>
+
+
+    <!-- for real-->
+
+    <!--   <string name="ApAdId">ca-app-pub-2953492676760965~8429074653</string>
+       <string name="interstitialunitid">ca-app-pub-2953492676760965/3218956489</string>
+       <string name="bannerunitid">ca-app-pub-2953492676760965/5802911313</string>
+       <string name="nativeid">ca-app-pub-2953492676760965/6461386860</string>-->
+
+
+    <!--for test-->
+
+    <string name="ApAdId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstitialunitid">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="bannerunitid">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>
 </resources>

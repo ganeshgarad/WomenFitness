@@ -38,9 +38,9 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
-   <!-- <com.google.android.gms.ads.AdView
+    <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/LI_bottomAd"
+        android:id="@+id/privacy_bottomAd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ads:layout_constraintBottom_toBottomOf="@+id/scrollView"
@@ -48,5 +48,5 @@
         ads:layout_constraintStart_toStartOf="parent"
         ads:adSize="BANNER"
         ads:adUnitId="@string/bannerunitid">
-    </com.google.android.gms.ads.AdView>-->
+    </com.google.android.gms.ads.AdView>
 </androidx.constraintlayout.widget.ConstraintLayout>

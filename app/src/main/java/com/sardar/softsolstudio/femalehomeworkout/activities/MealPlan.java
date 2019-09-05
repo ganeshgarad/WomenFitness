@@ -11,6 +11,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.adapters.DaysAdapter;
 import com.sardar.softsolstudio.femalehomeworkout.models.DaysModel;
@@ -23,7 +26,7 @@ public class MealPlan extends AppCompatActivity {
     Toolbar toolbar;
     RecyclerView Daysrecycler;
     ArrayList<DaysModel> DaysModelsList;
-    //AdView LH_bottom;
+    AdView LH_bottom;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,11 +35,10 @@ public class MealPlan extends AppCompatActivity {
     }
 
     private void initialization() {
-/*        MobileAds.initialize(MealPlan.this,getString(R.string.ApAdId));
+        MobileAds.initialize(MealPlan.this,getString(R.string.ApAdId));
         AdRequest adRequest=new AdRequest.Builder().build();
         LH_bottom=findViewById(R.id.meal_plan_bottomAd);
-        LH_bottom.loadAd(adRequest);*/
-
+        LH_bottom.loadAd(adRequest);
         toolbar = findViewById(R.id.toolbar1);
         toolbar.setTitle("Meal Plan");
         setSupportActionBar(toolbar);

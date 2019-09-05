@@ -8,10 +8,10 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="Home" />
-        <item
+        <!--<item
             android:id="@+id/nav_custom"
             android:icon="@drawable/ic_custom"
-            android:title="Custom" />
+            android:title="Custom" />-->
         <item
             android:id="@+id/nav_mealplan"
             android:icon="@drawable/ic_spoon"
@@ -36,6 +36,18 @@
             android:id="@+id/nav_setting"
             android:icon="@drawable/ic_settings"
             android:title="Setting" />
+        <item
+            android:id="@+id/nav_rate_us"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_privacy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="More App" />
         <item
             android:id="@+id/nav_restart"
             android:icon="@drawable/ic_restart"

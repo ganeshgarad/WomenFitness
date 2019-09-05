@@ -1,6 +1,7 @@
 package com.sardar.softsolstudio.femalehomeworkout.activities;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -14,9 +15,11 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.sardar.softsolstudio.femalehomeworkout.BuildConfig;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.fragments.HomeFragment;
 import com.sardar.softsolstudio.femalehomeworkout.fragments.SetReminder;
+import com.sardar.softsolstudio.femalehomeworkout.fragments.WorkoutGuideFragment;
 import com.sardar.softsolstudio.femalehomeworkout.fragments.privacyPoliceyFragment;
 import com.sardar.softsolstudio.femalehomeworkout.utils.SharedPrefManager;
 
@@ -80,12 +83,13 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.main_frame, new HomeFragment(), null)
                     .commit();
-        } else if (id == R.id.nav_custom) {
-
-        } else if (id == R.id.nav_mealplan) {
+        }  else if (id == R.id.nav_mealplan) {
             startActivity(new Intent(this, MealPlan.class));
         } else if (id == R.id.nav_guide) {
-
+            getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.main_frame, new WorkoutGuideFragment(), null).addToBackStack("routine")
+                    .commit();
         } else if (id == R.id.nav_reports) {
             startActivity(new Intent(this, ReportsBMIactivity.class));
         } else if (id == R.id.nav_history) {
@@ -101,6 +105,25 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_restart) {
             SharedPrefManager.getInstance(this).logOut();
+        }else if (id == R.id.nav_rate_us) {
+            final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
+            try {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+            } catch (android.content.ActivityNotFoundException anfe) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+            }
+        }else if (id == R.id.nav_privacy) {
+            getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.main_frame, new privacyPoliceyFragment(), null).addToBackStack("routine")
+                    .commit();
+        }else if (id == R.id.nav_invite) {
+            // sendFeedback(getActivity());
+            try {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Amndeep+Studio")));
+            } catch (android.content.ActivityNotFoundException anfe) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Amndeep+Studio")));
+            }
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

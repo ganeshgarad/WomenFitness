@@ -33,6 +33,7 @@
         <activity android:name=".activities.HistoryCalenderFragment"/>
         <activity android:name=".activities.ReportsBMIactivity"/>
         <activity android:name=".activities.CongratsWorkout"/>
+        <activity android:name=".activities.YoutubeVideo"/>
         <activity android:name=".activities.ReadyToStart"
             android:screenOrientation="portrait"/>
         <activity android:name=".activities.WorkoutMainActivity"
@@ -45,6 +46,9 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2953492676760965~8429074653"/>
     </application>
 
 </manifest>

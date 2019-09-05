@@ -15,7 +15,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"></androidx.appcompat.widget.Toolbar>
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        </androidx.appcompat.widget.Toolbar>
 
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/linechart"
@@ -90,7 +91,7 @@
                 android:padding="5dp"
                 android:text="edit"
                 android:textAllCaps="true"
-                android:textColor="#000" />
+                android:textColor="#FFF" />
         </LinearLayout>
 
         <LinearLayout
@@ -136,5 +137,17 @@
             android:textAlignment="center"
             android:textSize="28sp"
             android:fontFamily="@font/robotoblack"/>
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/report_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bannerunitid">
+        </com.google.android.gms.ads.AdView>
     </LinearLayout>
 </ScrollView>

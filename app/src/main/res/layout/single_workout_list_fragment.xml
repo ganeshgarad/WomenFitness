@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="#FFF"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFF">
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/single_workout_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_above="@+id/workout_start_button">
+        android:layout_above="@+id/workout_start_button"
+        android:layout_alignParentTop="true">
 
     </androidx.recyclerview.widget.RecyclerView>
 
@@ -19,22 +18,21 @@
         android:id="@+id/workout_start_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start WorkOut"
-        android:textSize="14sp"
+        android:layout_above="@id/workout_list_bottomAd"
         android:layout_margin="10dp"
-        android:layout_alignParentBottom="true"
-        android:textColor="#FFF"
         android:background="@drawable/button_style"
-        />
+        android:text="Start WorkOut"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
 
-   <!-- <com.google.android.gms.ads.AdView
+    <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/start_work_bottomAd"
+        android:id="@+id/workout_list_bottomAd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
         ads:adUnitId="@string/bannerunitid">
-    </com.google.android.gms.ads.AdView>-->
+    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

@@ -127,4 +127,11 @@ public class SharedPrefManager {
         // DaysModel obj = gson.fromJson(json, DaysModel.class);
         return productFromShared;
     }
+    public boolean RemoveWprkoutDays() {
+        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.remove(KEY_WORK_DAYS);
+        editor.apply();
+        return true;
+    }
 }

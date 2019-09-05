@@ -15,6 +15,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.activities.ReadyToStart;
 import com.sardar.softsolstudio.femalehomeworkout.adapters.WorkListAdapter;
@@ -33,14 +38,16 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
     Button StartBtn;
     String exercise="",daypoistion="",planno="";
     List<WorkoutDetailModel> WorkoutList;
+    AdView LH_bottom;
+    InterstitialAd interstitialAd;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.single_workout_list_fragment,container,false);
         if (getArguments() != null) {
-            exercise = getArguments().getString("plan");
+            exercise = getArguments().getString("lebal");
             daypoistion = getArguments().getString("position");
-            planno = getArguments().getString("lebal");
+            planno = getArguments().getString("plan");
             Log.d("singin", "LOVE WORKOUT" + exercise+" "+planno+" "+daypoistion);
         } else {
             Toast.makeText(getActivity(), "Basic info not save", Toast.LENGTH_SHORT).show();
@@ -51,6 +58,13 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
     }
 
     private void intial() {
+        MobileAds.initialize(getContext(),getString(R.string.ApAdId));
+        AdRequest adRequest=new AdRequest.Builder().build();
+        LH_bottom=view.findViewById(R.id.workout_list_bottomAd);
+        LH_bottom.loadAd(adRequest);
+        interstitialAd =new InterstitialAd(getContext());
+        interstitialAd.setAdUnitId(getString(R.string.interstitialunitid));
+        interstitialAd.loadAd(adRequest);
         WorkoutList=new ArrayList<>();
         StartBtn=view.findViewById(R.id.workout_start_button);
         StartBtn.setOnClickListener(this);
@@ -64,10 +78,28 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.workout_start_button:
-                Intent intent=new Intent(getContext(), ReadyToStart.class);
-                //intent.putExtra("ID",WorkoutId);
-                intent.putExtra("plan",exercise);
-                startActivity(intent);
+                if (interstitialAd.isLoaded()){
+                    interstitialAd.show();
+                }else {
+                    Intent intent = new Intent(getContext(), ReadyToStart.class);
+                    //intent.putExtra("ID",WorkoutId);
+                    intent.putExtra("plan", exercise);
+                    intent.putExtra("title", planno);
+                    intent.putExtra("position", daypoistion);
+                    startActivity(intent);
+                }
+                interstitialAd.setAdListener(new AdListener(){
+                    @Override
+                    public void onAdClosed() {
+                        super.onAdClosed();
+                        Intent intent = new Intent(getContext(), ReadyToStart.class);
+                        //intent.putExtra("ID",WorkoutId);
+                        intent.putExtra("plan", exercise);
+                        intent.putExtra("title", planno);
+                        intent.putExtra("position", daypoistion);
+                        startActivity(intent);
+                    }
+                });
                 break;
         }
     }
@@ -117,7 +149,7 @@ public class SingleWorkOutList extends Fragment implements View.OnClickListener{
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        getActivity().setTitle(exercise);
+        getActivity().setTitle(planno);
         super.onViewCreated(view, savedInstanceState);
     }
 }
