@@ -401,7 +401,7 @@
     "isOnline": false
   },
   {
-    "id": 42,
+    "id": 22,
     "unit": 22,
     "turns": "10",
     "calories": 12.63,
@@ -417,6 +417,63 @@
     "info":"Quadricep stretch is an effective exercise that mainly targets your quads, hip flexors and ankles.",
     "howTo":"Stand straight and shift your body weight to the left leg. Lift up your right foot, grasp it with your right hand from backside and feel the stretch in your quads by pulling it towards the hip. Hold the stretch then repeat with right leg.",
     "correctForm":"Take deep breaths while stretching\nGrab the top of your foot with respective hand",
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Hop Side To Side",
+    "id": 23,
+    "turns": "30",
+    "name": "hop_side_to_side.gif",
+    "url": "NTqBhdYuT6M",
+    "info": "",
+    "howTo": "Step 1: Begin in an athletic stance with feet about hip-width apart.\n Step 2: Begin by hopping to the right, and then immediately hopping to the left once your feet touch the ground.\nStep 3: Each direction is one rep.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.05,
+    "display": "High Knees",
+    "id": 24,
+    "turns": "30",
+    "name": "high_knees.gif",
+    "url": "whHxoB-AFYQ",
+    "info": "High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
+    "howTo": "This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
+    "correctForm": "Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
+    "tts": [
+      {
+        "text": "High Knees is a very good full body cardio vascular exercise very effective for fat burning",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "id": 25,
+    "unit": 3,
+    "turns": "24",
+    "calories": 12.63,
+    "display": "Lunge Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "lunge_stretch.gif",
+    "url": "rHHzHSmjLng",
+    "info": "Lunge stretch is an exercise than primarily targets abs, glutes, quads and hamstrings.",
+    "howTo": "Stand straight, take a step forward then slowly bend both knees until your back knee touches the floor. Stand back up and repeat the motion with alternative leg.",
+    "correctForm": "While bending front knee, make 90 degree angle from thigh to leg\nMaintain your feet hip width apart",
     "isOnline": false
   }
 ]

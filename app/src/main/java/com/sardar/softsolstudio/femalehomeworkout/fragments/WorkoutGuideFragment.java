@@ -63,7 +63,7 @@ public class WorkoutGuideFragment extends Fragment implements Html.ImageGetter {
         LevelListDrawable d = new LevelListDrawable();
         Drawable empty = getResources().getDrawable(id);
         d.addLevel(0, 0, empty);
-        d.setBounds(10, 10, 640, 250);
+        d.setBounds(10, 10, 740, 250);
 
         return d;
     }

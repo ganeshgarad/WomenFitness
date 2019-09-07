@@ -264,5 +264,43 @@
     "howTo": "Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
     "correctForm": "Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
     "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kick Left",
+    "id": 14,
+    "turns": "16",
+    "name": "plank_back_kick_left1.gif",
+    "url": "ELJ-14EdAHM",
+    "info": "",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your left leg off the ground to around a 45-degree angle.Lower your left leg back down to the ground before repeating the movement for your right leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kicks Right",
+    "id": 15,
+    "turns": "16",
+    "name": "plank_back_kick_right1.gif",
+    "url": "ELJ-14EdAHM",
+    "info": "",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your right leg off the ground to around a 45-degree angle.Lower your right leg back down to the ground before repeating the movement for your left leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
   }
 ]

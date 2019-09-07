@@ -398,5 +398,81 @@
     ],
     "unit": 1,
     "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Hip Thrust",
+    "id": 22,
+    "turns": "30",
+    "name": "hip_thrust.gif",
+    "url": "MbgCVewqWio",
+    "info":"",
+    "howTo":"Sit on the floor facing away from a bench.Hold a pair of dumbbells at the crease in your hips, resting the weights on your body.Drive through your heels to lift your hips to the sky as your upper back stays in place on the bench.Pause and squeeze your glutes at the top",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 23,
+    "turns": "30",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 15.7456,
+    "display": "Scissors",
+    "id": 24,
+    "turns": "24",
+    "name": "scissors1.gif",
+    "url": "WoNCIBVLbgY",
+    "info":"Scissors is a core exercise that primarily targets abs, hip flexors and transverse abdominis that maintain your stability, posture and balance.",
+    "howTo":"Lying your back with both legs straight, put your hands underneath your lower back core for support. Raise your legs to 45 degree angle, spread them out to the side and then cross one leg over the other in the middle. Then bring them back to starting position completes one repetition.",
+    "correctForm":"Raise your chin towards the chest to engage your upper abs\nPress lower back over the floor",
+    "tts": [
+      {
+        "text": "Scissors strengthens core and lower abs muscles along with hip flexors and quadriceps",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 15.5745,
+    "display": "Plank",
+    "id": 25,
+    "turns": "30 Sec",
+    "name": "plank1.gif",
+    "url": "3FOU8F9LMt0",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. You should feel tension in your core, hamstring and glutes.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Plank targets the core and upper abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
   }
 ]

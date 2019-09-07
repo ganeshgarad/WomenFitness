@@ -302,5 +302,62 @@
     ],
     "unit": 1,
     "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Lunge Step-ups Left",
+    "id": 17,
+    "turns": "24",
+    "name": "lunge_step_up_left.gif",
+    "url": "KM6-6xTRpow",
+    "info":"",
+    "howTo":"Starting standing with your feet shoulder-width apart. Jump your left leg forward and your right leg back into a lunge, with both knees at 90 degrees. Jump up and switch your legs in midair so that you land in a lunge with your left leg in front. Continue jumping back and forth, pausing as little as possible.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Lunge Step-ups Right",
+    "id": 18,
+    "turns": "24",
+    "name": "lunge_step_up_right.gif",
+    "url": "KM6-6xTRpow",
+    "info":"",
+    "howTo":"Starting standing with your feet shoulder-width apart. Jump your right leg forward and your left leg back into a lunge, with both knees at 90 degrees. Jump up and switch your legs in midair so that you land in a lunge with your right leg in front. Continue jumping back and forth, pausing as little as possible.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Squats",
+    "id": 19,
+    "turns": "20",
+    "name": "squats1.gif",
+    "url": "aclHkVaku9U",
+    "info":"",
+    "howTo":"tand with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor. Your knees should be extended in the same direction as your tiptoes.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
   }
 ]

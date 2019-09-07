@@ -190,5 +190,101 @@
     "howTo":"Lie face down on the floor with parallel thigh placement and place your hands underneath your shoulders. Start straightening your arms with chest lift and maintain a comfortable height of torso. Relax and hold the stretch upwards.",
     "correctForm":"Tit head back and look upkeep\nKeep your abs and back relaxed",
     "isOnline": false
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 11,
+    "turns": "25",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+
+  {
+    "calories": 15.5745,
+    "display": "Plank",
+    "id": 12,
+    "turns": "30 Sec",
+    "name": "plank1.gif",
+    "url": "3FOU8F9LMt0",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. You should feel tension in your core, hamstring and glutes.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Plank targets the core and upper abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Half Kneeling Thread The Needle Left",
+    "id": 13,
+    "turns": "18",
+    "name": "half_kneeling_thread_needle_left.gif",
+    "url": "WfMdeMmR6vI",
+    "info":"",
+    "howTo":"Thread the needle to loosen your midback and stretch your shoulders. As you reach up, push the floor away through your supporting arm to turn your breastbone. Breathe in and reach under to stretch.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Half Kneeling Thread The Needle Right",
+    "id": 14,
+    "turns": "18",
+    "name": "half_kneeling_thread_needle_right.gif",
+    "url": "WfMdeMmR6vI",
+    "info":"",
+    "howTo":"Thread the needle to loosen your midback and stretch your shoulders. As you reach up, push the floor away through your supporting arm to turn your breastbone. Breathe in and reach under to stretch.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.574,
+    "display": "Push Ups",
+    "id": 15,
+    "turns": "12",
+    "name": "push_up1.gif",
+    "url": "rjc0O7OXS3g",
+    "info":"Pushup is an effective exercise that primarily strengthens your chest, abs and core body muscles.",
+    "howTo":"Position your hands and arms right below your shoulders while holding your body in a plank position. Lower your body until your chest is two inches above the floor. Then push your torso away from the ground until your arms lock, then repeat.",
+    "correctForm":"Keep your body in a straight position, don’t arch your back\nKeep your core engaged throughout the entire movement",
+    "tts": [
+      {
+        "text": "Push Up is very effective exercise for upper body conditioning and core abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
   }
 ]

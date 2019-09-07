@@ -10,14 +10,14 @@
     app:cardCornerRadius="8dp"
     app:cardElevation="8dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100dp">
 
         <TextView
             android:textStyle="bold"
             android:id="@+id/tv_displayname"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="16dp"
@@ -25,6 +25,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:text="TextView"
+            android:layout_toLeftOf="@id/gifview_workout"
+            android:layout_alignParentLeft="true"
             android:textAllCaps="true"
             android:fontFamily="@font/centurygothicregular"
             android:textColor="@color/textcolorHeader"
@@ -54,6 +56,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="12dp"
+            android:layout_alignParentEnd="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -72,6 +75,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="5dp"
             android:text="turns"
+            android:layout_below="@id/tv_displayname"
             android:textAllCaps="true"
             android:fontFamily="@font/centurygothicregular"
             android:textColor="#000"
@@ -83,5 +87,5 @@
             />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 </androidx.cardview.widget.CardView>

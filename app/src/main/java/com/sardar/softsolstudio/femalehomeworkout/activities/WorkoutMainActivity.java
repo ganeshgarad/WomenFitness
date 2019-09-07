@@ -68,6 +68,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
     TextToSpeech textToSpeech12;
     DatabaseHelper db;
     MediaPlayer mp;
+    int maxVolume = 100;
     InterstitialAd interstitialAd;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -126,6 +127,8 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
             }
         });
         mp = MediaPlayer.create(this, R.raw.musicbg);
+        final float volume = (float) (1 - (Math.log(maxVolume - 60.0) / Math.log(maxVolume)));
+        mp.setVolume(volume, volume);
         mp.start();
         db = new DatabaseHelper(this);
         final FloatingActionButton fabdone = findViewById(R.id.done_workout);

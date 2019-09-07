@@ -226,5 +226,62 @@
     "howTo":"Stand straight, take a step forward then slowly bend both knees until your back knee touches the floor. Stand back up and repeat the motion with alternative leg.",
     "correctForm":"While bending front knee, make 90 degree angle from thigh to leg\nMaintain your feet hip width apart",
     "isOnline": false
+  },
+  {
+    "calories": 13.54,
+    "display": "Jumping Jacks",
+    "id": 13,
+    "turns": "30",
+    "name": "jumping_jacks.gif",
+    "url": "XR0xeuK5zBU",
+    "info":"Jumping jack is a cardiovascular, full body warm up exercise as it helps loosening of the muscles.",
+    "howTo":"Stand upright. Your feet should be together and your hands by your sides. Begin exercise by raising both your hands simultaneously, up and above your head. While raising your hands jump off the floor and move your feet apart to a distance around twice that of shoulder width.\nWith your hands at the top and feet spread apart, immediately reverse your movement back to the starting position. Do this exercise in a fluid motion.",
+    "correctForm":"Try to synchronize the movement of your hands with your feet\nDo not pause during this exercise",
+    "tts": [
+      {
+        "text": "Jumping Jacks is a very good full body warm up exercise",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Squats",
+    "id": 14,
+    "turns": "20",
+    "name": "squats1.gif",
+    "url": "aclHkVaku9U",
+    "info":"",
+    "howTo":"tand with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor. Your knees should be extended in the same direction as your tiptoes.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Burpees",
+    "id": 15,
+    "turns": "12",
+    "name": "burpees.gif",
+    "url": "dZgVxmf6jkA",
+    "info":"Burpees is a plyometric exercise that targets the chest, shoulders, core and legs while also improving your cardiovascular strength.",
+    "howTo":"Start with your feet shoulder width apart. Bend down and put your hands on the floor. Kick both of your legs backwards simultaneously to go into a push up position. Lower your chest to ground as doing a push up, then jump both your feet back in simultaneously. Stand up and do a jump with both your hands facing the ceiling. Remember to do a soft landing.",
+    "correctForm":"Do not Arch your lower back when coming out of the push up position\nDo not skip your squat when moving from standing to burpee position",
+    "tts": [
+      {
+        "text": "Burpees is a highly effective fat burning exercise It raises heart rate and boosts body metabolism",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
   }
 ]

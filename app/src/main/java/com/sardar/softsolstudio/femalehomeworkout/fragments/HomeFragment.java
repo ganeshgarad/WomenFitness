@@ -13,8 +13,10 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.sardar.softsolstudio.femalehomeworkout.R;
 import com.sardar.softsolstudio.femalehomeworkout.activities.ReadyToStart;
@@ -23,6 +25,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     View view;
     CardView daysChallenge,abs_beginner,abs_inter,abs_advance,arm_cardview,butt_beginner,butt_inter,butt_advance,chest_cardview,leg_beginner,leg_inter,leg_advance;
     AdView ad_bottom;
+    InterstitialAd interstitialAd;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -35,6 +38,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         MobileAds.initialize(getContext(),getString(R.string.ApAdId));
         AdRequest adRequest=new AdRequest.Builder().build();
         ad_bottom=view.findViewById(R.id.homebottom);
+        interstitialAd =new InterstitialAd(getContext());
+        interstitialAd.setAdUnitId(getString(R.string.interstitialunitid));
+        interstitialAd.loadAd(adRequest);
         ad_bottom.loadAd(adRequest);
         abs_beginner=view.findViewById(R.id.abs_beginner_cardview);
         abs_inter=view.findViewById(R.id.abs_inter_cardview);
@@ -105,28 +111,67 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 CallFragment("CHEST workout");
                 break;
             case R.id.day_challenge_cardview:
-                DaysWorkoutListFragment fragment3=new DaysWorkoutListFragment();
-                Bundle args3 = new Bundle();
-                args3.putString("lebal", "Day Challenge");
-                fragment3.setArguments(args3);
-                FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
-                fragmentTransaction3.replace(R.id.main_frame, fragment3);
-                fragmentTransaction3.addToBackStack("forgetpass_fragment");
-                fragmentTransaction3.commit();
+                if (interstitialAd.isLoaded()) {
+                    interstitialAd.show();
+                } else {
+                    DaysWorkoutListFragment fragment3=new DaysWorkoutListFragment();
+                    Bundle args3 = new Bundle();
+                    args3.putString("lebal", "Day Challenge");
+                    fragment3.setArguments(args3);
+                    FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+                    fragmentTransaction3.replace(R.id.main_frame, fragment3);
+                    fragmentTransaction3.addToBackStack("forgetpass_fragment");
+                    fragmentTransaction3.commit();
+                }
+                interstitialAd.setAdListener(new AdListener() {
+                    @Override
+                    public void onAdClosed() {
+                        super.onAdClosed();
+                        DaysWorkoutListFragment fragment3=new DaysWorkoutListFragment();
+                        Bundle args3 = new Bundle();
+                        args3.putString("lebal", "Day Challenge");
+                        fragment3.setArguments(args3);
+                        FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+                        fragmentTransaction3.replace(R.id.main_frame, fragment3);
+                        fragmentTransaction3.addToBackStack("forgetpass_fragment");
+                        fragmentTransaction3.commit();
+                    }
+                });
+
                 break;
 
         }
     }
 
-    private void CallFragment(String workout) {
-        SingleWorkOutList fragment3=new SingleWorkOutList();
-        Bundle args3 = new Bundle();
-        args3.putString("lebal", workout);
-        args3.putString("plan", workout);
-        fragment3.setArguments(args3);
-        FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
-        fragmentTransaction3.replace(R.id.main_frame, fragment3);
-        fragmentTransaction3.addToBackStack("forgetpass_fragment");
-        fragmentTransaction3.commit();
+    private void CallFragment(final String workout) {
+        if (interstitialAd.isLoaded()) {
+            interstitialAd.show();
+        } else {
+            SingleWorkOutList fragment3=new SingleWorkOutList();
+            Bundle args3 = new Bundle();
+            args3.putString("lebal", workout);
+            args3.putString("plan", workout);
+            fragment3.setArguments(args3);
+            FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+            fragmentTransaction3.replace(R.id.main_frame, fragment3);
+            fragmentTransaction3.addToBackStack("forgetpass_fragment");
+            fragmentTransaction3.commit();
+        }
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                SingleWorkOutList fragment3=new SingleWorkOutList();
+                Bundle args3 = new Bundle();
+                args3.putString("lebal", workout);
+                args3.putString("plan", workout);
+                fragment3.setArguments(args3);
+                FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+                fragmentTransaction3.replace(R.id.main_frame, fragment3);
+                fragmentTransaction3.addToBackStack("forgetpass_fragment");
+                fragmentTransaction3.commit();
+            }
+        });
+
     }
 }

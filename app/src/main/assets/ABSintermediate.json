@@ -247,5 +247,120 @@
     "howTo":"Lie face down on the floor with parallel thigh placement and place your hands underneath your shoulders. Start straightening your arms with chest lift and maintain a comfortable height of torso. Relax and hold the stretch upwards.",
     "correctForm":"Tit head back and look upkeep\nKeep your abs and back relaxed",
     "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Half Kneeling Thread The Needle Left",
+    "id": 14,
+    "turns": "20",
+    "name": "half_kneeling_thread_needle_left.gif",
+    "url": "WfMdeMmR6vI",
+    "info":"",
+    "howTo":"Thread the needle to loosen your midback and stretch your shoulders. As you reach up, push the floor away through your supporting arm to turn your breastbone. Breathe in and reach under to stretch.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Half Kneeling Thread The Needle Right",
+    "id": 15,
+    "turns": "20",
+    "name": "half_kneeling_thread_needle_right.gif",
+    "url": "WfMdeMmR6vI",
+    "info":"",
+    "howTo":"Thread the needle to loosen your midback and stretch your shoulders. As you reach up, push the floor away through your supporting arm to turn your breastbone. Breathe in and reach under to stretch.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "id": 16,
+    "unit": 1,
+    "turns": "20",
+    "calories": 12.63,
+    "display": "Downward Upward Dog",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "downward_upward_dog.gif",
+    "url": "1N5Di9l84Uc",
+    "info":"Downward upward dog is an exercise that primarily targets your back, hamstrings, chest and shoulders.",
+    "howTo":"Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
+    "correctForm":"Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
+    "isOnline": false
+  },
+  {
+    "calories": 12.4287,
+    "display": "Plank Jacks",
+    "id": 17,
+    "turns": "20",
+    "name": "plank_jacks1.gif",
+    "url": "xcBz0TtHqWI",
+    "info":"Plank jack is cardio exercise that primarily targets abs and strengthens the upper body, lower body and core. This exercise also helps in cardiovascular endurance, accelerate the heart rate and burn more calories.",
+    "howTo":"Get settled in a pushup position and make your body into a straight line from head to toe. Press your toes forcefully into the floor and jump your feets outwards to spread your legs out without moving your torso. Then jump again with your feets and bring your legs back together. Make sure to keep your lower abs tight as you jack your feet.",
+    "correctForm":"Keep your body in straight position, don’t arch your back\nAs you move your legs outwards, don’t allow your torso to rotate.",
+    "tts": [
+      {
+        "text": "Plank Jacks targets core abs hip flexors and calf muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 18,
+    "turns": "30",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+
+  {
+    "calories": 15.5745,
+    "display": "Plank",
+    "id": 19,
+    "turns": "30 Sec",
+    "name": "plank1.gif",
+    "url": "3FOU8F9LMt0",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. You should feel tension in your core, hamstring and glutes.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Plank targets the core and upper abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
   }
 ]
