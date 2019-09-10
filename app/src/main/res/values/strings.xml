@@ -58,16 +58,16 @@
 
     <!-- for real-->
 
-    <!--   <string name="ApAdId">ca-app-pub-2953492676760965~8429074653</string>
+       <string name="ApAdId">ca-app-pub-2953492676760965~8429074653</string>
        <string name="interstitialunitid">ca-app-pub-2953492676760965/3218956489</string>
        <string name="bannerunitid">ca-app-pub-2953492676760965/5802911313</string>
-       <string name="nativeid">ca-app-pub-2953492676760965/6461386860</string>-->
+       <string name="nativeid">ca-app-pub-2953492676760965/6461386860</string>
 
 
     <!--for test-->
 
-    <string name="ApAdId">ca-app-pub-3940256099942544~3347511713</string>
+<!--    <string name="ApAdId">ca-app-pub-3940256099942544~3347511713</string>
     <string name="interstitialunitid">ca-app-pub-3940256099942544/1033173712</string>
     <string name="bannerunitid">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>-->
 </resources>

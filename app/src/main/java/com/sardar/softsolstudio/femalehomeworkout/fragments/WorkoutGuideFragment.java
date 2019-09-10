@@ -41,7 +41,7 @@ public class WorkoutGuideFragment extends Fragment implements Html.ImageGetter {
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        getActivity().setTitle("Workout Guide");
+        getActivity().setTitle(" Workout Guide");
         super.onViewCreated(view, savedInstanceState);
     }
 
@@ -57,13 +57,13 @@ public class WorkoutGuideFragment extends Fragment implements Html.ImageGetter {
         if(s.equals("guide2.png")){
             id = R.drawable.guide2;
         }
-        if(s.equals("chest.jpg")){
+        if(s.equals("chest.png")){
             id = R.drawable.chest;
         }
         LevelListDrawable d = new LevelListDrawable();
         Drawable empty = getResources().getDrawable(id);
         d.addLevel(0, 0, empty);
-        d.setBounds(10, 10, 740, 250);
+        d.setBounds(10, 10, 920, 350);
 
         return d;
     }

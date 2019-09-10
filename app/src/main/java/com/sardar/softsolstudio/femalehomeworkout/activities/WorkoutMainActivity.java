@@ -126,7 +126,7 @@ public class WorkoutMainActivity extends AppCompatActivity implements View.OnCli
                 }
             }
         });
-        mp = MediaPlayer.create(this, R.raw.musicbg);
+        mp = MediaPlayer.create(this, R.raw.music);
         final float volume = (float) (1 - (Math.log(maxVolume - 60.0) / Math.log(maxVolume)));
         mp.setVolume(volume, volume);
         mp.start();

@@ -1,33 +1,242 @@
 [
-  {"id":"1","Day":"Day 1","breakfast":"1-2 boiled eggs,\n1/2 grapefruits or oranges, \nTea or coffee without sugar and milk,","snack":"Sandwich (whole wheat bread with avocado)","lunch":"Oatmeal porridge with low-fat milk 150g.\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)","dinner":"Any lean meats 200g,\n1 cucumber or tomato."},
-  {"id":"2","Day":"Day 2","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with tomato,\ncucumber and salad","lunch":"Chicken fillet 200g,\n1 tomato,\n1 grapefruit or orange","dinner":"2 boiled eggs,\nRye toast,\n1 grapefruit or orange"},
-  {"id":"3","Day":"Day 3","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with tomato, cucumber and salad","lunch":"Chicken fillet 200g,\n1 tomato, \n1 grapefruit or orange","dinner":"2 boiled eggs,\nRye toast,\n1 grapefruit or orange"},
-  {"id":"4","Day":"Day 4","breakfast":"200 g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Oatmeal cookies 3 pcs.","lunch":"Muesli with low-fat milk 150g.,\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)","dinner":"Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)"},
-  {"id":"5","Day":"Day 5","breakfast":"Oatmeal porridge with low-fat milk 150g.,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk","snack":"Baked apple with honey","lunch":"2 boiled eggs,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)","dinner":"Boiled or grilled fish 200g. (bream, cod, perch, pollock, carp, whiting, mullet, pike, flounder, hake, grouper),\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg),\n1 orange or grapefruit"},
-  {"id":"6","Day":"Day 6","breakfast":"200 g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Boiled corn 1 pc.","lunch":"Vegetable soup 200g. (any vegetables except potatoes),\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)","dinner":"Any lean meats 200g,\n1 cucumber or tomato,\nYogurt 200ml with fat content up to 5%"},
-  {"id":"7","Day":"Day 7","breakfast":"1-2 boiled eggs,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk","snack":"Oatmeal cookies 3 pcs.","lunch":"Chicken fillet 200g. without skin grilled or boiled,\n 2 tomatoes or cucumbers,\n1 grapefruit or orange","dinner":"Oatmeal porridge with low-fat milk 150g.,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"},
-  {"id":"8","Day":"Day 8","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\n Yogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"9","Day":"Day 9","breakfast":"Omelette from 3 eggs with low-fat milk,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with tomato, cucumber and salad","lunch":"Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, batavia lettuce, batterhed, iceberg)","dinner":"2 boiled eggs,\nVegetable soup 200g. (any vegetables except potatoes),\n1 orange or grapefruits"},
-  {"id":"10","Day":"Day 10","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"11","Day":"Day 11","breakfast":"Omelette from 3 eggs with low-fat milk,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with tomato, cucumber and salad","lunch":"Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, batavia lettuce, batterhed, iceberg)","dinner":"2 boiled eggs,\nVegetable soup 200g. (any vegetables except potatoes),\n1 orange or grapefruits"},
-  {"id":"12","Day":"Day 12","breakfast":"Oatmeal porridge with low-fat milk 150g.,\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"Vegetable soup 200g. (any vegetables except potatoes),\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)","dinner":"Vegetable soup 200g. (any vegetables except potatoes),\n Fruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)"},
-  {"id":"13","Day":"Day 13","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"14","Day":"Day 14","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"15","Day":"Day 15","breakfast":"1-2 boiled eggs,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk","snack":"Oatmeal cookies 3 pcs.","lunch":"Chicken fillet 200g. without skin grilled or boiled,\n2 tomatoes or cucumbers,\n1 grapefruit or orange","dinner":"Oatmeal porridge with low-fat milk 150g.,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"},
-  {"id":"16","Day":"Day 16","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"17","Day":"Day 17","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"18","Day":"Day 18","breakfast":"1-2 boiled eggs,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk","snack":"Oatmeal cookies 3 pcs.","lunch":"Chicken fillet 200g. without skin grilled or boiled,\n2 tomatoes or cucumbers,\n1 grapefruit or orange","dinner":"Oatmeal porridge with low-fat milk 150g.,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"},
-  {"id":"19","Day":"Day 19","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"20","Day":"Day 20","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"21","Day":"Day 21","breakfast":"200 g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Boiled corn 1 pc.","lunch":"Vegetable soup 200g. (any vegetables except potatoes),\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)","dinner":"Any lean meats 200g,\n1 cucumber or tomato,\nYogurt 200ml with fat content up to 5%"},
-  {"id":"22","Day":"Day 22","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"23","Day":"Day 23","breakfast":"Omelette from 3 eggs with low-fat milk,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with tomato, cucumber and salad","lunch":"Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, batavia lettuce, batterhed, iceberg)","dinner":"2 boiled eggs,\nVegetable soup 200g. (any vegetables except potatoes),\n1 orange or grapefruits"},
-  {"id":"24","Day":"Day 24","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"25","Day":"Day 25","breakfast":"200 g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Oatmeal cookies 3 pcs.","lunch":"Muesli with low-fat milk 150g.,\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)","dinner":"Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)"},
-  {"id":"26","Day":"Day 26","breakfast":"Oatmeal porridge with low-fat milk 150g.,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk","snack":"Baked apple with honey","lunch":"2 boiled eggs,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)","dinner":"Boiled or grilled fish 200g. (bream, cod, perch, pollock, carp, whiting, mullet, pike, flounder, hake, grouper),\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg),\n 1 orange or grapefruit"},
-  {"id":"27","Day":"Day 27","breakfast":"Omelette from 3 eggs with low-fat milk,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with tomato, cucumber and salad","lunch":"Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, batavia lettuce, batterhed, iceberg)","dinner":"2 boiled eggs,\nVegetable soup 200g. (any vegetables except potatoes),\n1 orange or grapefruits"},
-  {"id":"28","Day":"Day 28","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"},
-  {"id":"29","Day":"Day 29","breakfast":"1-2 boiled eggs,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk","snack":"Oatmeal cookies 3 pcs.","lunch":"Chicken fillet 200g. without skin grilled or boiled,\n2 tomatoes or cucumbers,\n1 grapefruit or orange","dinner":"Oatmeal porridge with low-fat milk 150g.,\n Steamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"},
-  {"id":"30","Day":"Day 30","breakfast":"200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk","snack":"Sandwich (whole wheat bread with avocado)","lunch":"2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)","dinner":"2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"}
-
-  ]
+  {
+    "id": "1",
+    "Day": "Day 1",
+    "breakfast": "1-2 boiled eggs,\n1/2 grapefruits or oranges, \nTea or coffee without sugar and milk,",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "Oatmeal porridge with low-fat milk 150g.\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)",
+    "dinner": "Any lean meats 200g,\n1 cucumber or tomato."
+  },
+  {
+    "id": "2",
+    "Day": "Day 2",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with tomato,\ncucumber and salad",
+    "lunch": "Chicken fillet 200g,\n1 tomato,\n1 grapefruit or orange",
+    "dinner": "2 boiled eggs,\nRye toast,\n1 grapefruit or orange"
+  },
+  {
+    "id": "3",
+    "Day": "Day 3",
+    "breakfast": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)\nTea or coffee without sugar and milk",
+    "snack": "Nuts 30g. (Any nuts except salted)",
+    "lunch": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus).\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus),\n1 1 cucumber,\n1 tomato"
+  },
+  {
+    "id": "4",
+    "Day": "Day 4",
+    "breakfast": "Chicken fillet 200g. \n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Oatmeal cookies 3 pcs.",
+    "lunch": "Muesli with low-fat milk 150g.,\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)",
+    "dinner": "Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)"
+  },
+  {
+    "id": "5",
+    "Day": "Day 5",
+    "breakfast": "Oatmeal porridge with low-fat milk 150g.,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Baked apple with honey",
+    "lunch": "2 boiled eggs,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)",
+    "dinner": "Boiled or grilled fish 200g. (bream, cod, perch, pollock, carp, whiting, mullet, pike, flounder, hake, grouper),\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg),\n1 orange or grapefruit"
+  },
+  {
+    "id": "6",
+    "Day": "Day 6",
+    "breakfast": "200 g low-fat cottage cheese,\n1 Yoghurt 200ml with fat content up to 5%,\nTea or coffee without sugar and milk",
+    "snack": "Boiled corn 1 pc.",
+    "lunch": "Vegetable soup 200g. (any vegetables except potatoes),\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)",
+    "dinner": "Any lean meats 200g,\n1 cucumber or tomato,\nYogurt 200ml with fat content up to 5%"
+  },
+  {
+    "id": "7",
+    "Day": "Day 7",
+    "breakfast": "1-2 boiled eggs,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Oatmeal cookies 3 pcs.",
+    "lunch": "Chicken fillet 200g. without skin grilled or boiled,\n 2 tomatoes or cucumbers,\n1 grapefruit or orange",
+    "dinner": "Oatmeal porridge with low-fat milk 150g.,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"
+  },
+  {
+    "id": "8",
+    "Day": "Day 8",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\n Yogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "9",
+    "Day": "Day 9",
+    "breakfast": "Omelette from 3 eggs with low-fat milk,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with tomato, cucumber and salad",
+    "lunch": "Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, batavia lettuce, batterhed, iceberg)",
+    "dinner": "2 boiled eggs,\nVegetable soup 200g. (any vegetables except potatoes),\n1 orange or grapefruits"
+  },
+  {
+    "id": "10",
+    "Day": "Day 10",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "11",
+    "Day": "Day 11",
+    "breakfast": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)\nTea or coffee without sugar and milk",
+    "snack": "Nuts 30g. (Any nuts except salted)",
+    "lunch": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus).\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus),\n1 1 cucumber,\n1 tomato"
+  },
+  {
+    "id": "12",
+    "Day": "Day 12",
+    "breakfast": "Oatmeal porridge with low-fat milk 150g.,\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "Vegetable soup 200g. (any vegetables except potatoes),\nFruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)",
+    "dinner": "Vegetable soup 200g. (any vegetables except potatoes),\n Fruit (apples, pears, kiwi, oranges, grapefruits, plums, tangerines, pineapples, peaches, melons, apricots, pomelo)"
+  },
+  {
+    "id": "13",
+    "Day": "Day 13",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "14",
+    "Day": "Day 14",
+    "breakfast": "Muesli with low-fat milk 150g.,\n1 1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Baked pumpkin 200g.",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "15",
+    "Day": "Day 15",
+    "breakfast": "1-2 boiled eggs,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk",
+    "snack": "Oatmeal cookies 3 pcs.",
+    "lunch": "Chicken fillet 200g. without skin grilled or boiled,\n2 tomatoes or cucumbers,\n1 grapefruit or orange",
+    "dinner": "Oatmeal porridge with low-fat milk 150g.,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"
+  },
+  {
+    "id": "16",
+    "Day": "Day 16",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "17",
+    "Day": "Day 17",
+    "breakfast": "Muesli with low-fat milk 150g.,\n1 1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Baked pumpkin 200g.",
+    "lunch": "Lentil, pea or cabbage soup 200g. (without the addition of potatoes),\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "18",
+    "Day": "Day 18",
+    "breakfast": "1-2 boiled eggs,\n1/2 grapefruits or oranges,\n Tea or coffee without sugar and milk",
+    "snack": "Oatmeal cookies 3 pcs.",
+    "lunch": "Chicken fillet 200g. without skin grilled or boiled,\n2 tomatoes or cucumbers,\n1 grapefruit or orange",
+    "dinner": "Oatmeal porridge with low-fat milk 150g.,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"
+  },
+  {
+    "id": "19",
+    "Day": "Day 19",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "20",
+    "Day": "Day 20",
+    "breakfast": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)\nTea or coffee without sugar and milk",
+    "snack": "Nuts 30g. (Any nuts except salted)",
+    "lunch": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus).\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus),\n1 1 cucumber,\n1 tomato"
+  },
+  {
+    "id": "21",
+    "Day": "Day 21",
+    "breakfast": "Muesli with low-fat milk 150g.,\n1 1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Baked pumpkin 200g.",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "22",
+    "Day": "Day 22",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "23",
+    "Day": "Day 23",
+    "breakfast": "Omelette from 3 eggs with low-fat milk,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with tomato, cucumber and salad",
+    "lunch": "Any lean meats 200g.,\nGreen salad 50-100 g. (romaine, arugula, spinach, batavia lettuce, batterhed, iceberg)",
+    "dinner": "2 boiled eggs,\nVegetable soup 200g. (any vegetables except potatoes),\n1 orange or grapefruits"
+  },
+  {
+    "id": "24",
+    "Day": "Day 24",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "25",
+    "Day": "Day 25",
+    "breakfast": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg)\nTea or coffee without sugar and milk",
+    "snack": "Nuts 30g. (Any nuts except salted)",
+    "lunch": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus).\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "Steamed vegetables 200-300g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus),\n1 1 cucumber,\n1 tomato"
+  },
+  {
+    "id": "26",
+    "Day": "Day 26",
+    "breakfast": "Oatmeal porridge with low-fat milk 150g.,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Baked apple with honey",
+    "lunch": "2 boiled eggs,\nSteamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)",
+    "dinner": "Boiled or grilled fish 200g. (bream, cod, perch, pollock, carp, whiting, mullet, pike, flounder, hake, grouper),\nGreen salad 50-100g. (romaine, arugula, spinach, Batavia lettuce, butterhead, iceberg),\n 1 orange or grapefruit"
+  },
+  {
+    "id": "27",
+    "Day": "Day 27",
+    "breakfast": "Muesli with low-fat milk 150g.,\n1 1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Baked pumpkin 200g.",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "28",
+    "Day": "Day 28",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  },
+  {
+    "id": "29",
+    "Day": "Day 29",
+    "breakfast": "1-2 boiled eggs,\n1/2 grapefruits or oranges,\nTea or coffee without sugar and milk",
+    "snack": "Oatmeal cookies 3 pcs.",
+    "lunch": "Chicken fillet 200g. without skin grilled or boiled,\n2 tomatoes or cucumbers,\n1 grapefruit or orange",
+    "dinner": "Oatmeal porridge with low-fat milk 150g.,\n Steamed vegetables 200-300 g. unsalted and without oil (zucchini, eggplant, zucchini, green beans, carrots, broccoli, cauliflower, asparagus)"
+  },
+  {
+    "id": "30",
+    "Day": "Day 30",
+    "breakfast": "200g low-fat cottage cheese,\n1 Fruit (apple, pear, kiwi, orange, grapefruits, mandarin, peach, apricot),\nTea or coffee without sugar and milk",
+    "snack": "Sandwich (whole wheat bread with avocado)",
+    "lunch": "2 boiled eggs,\nGreen salad 50-100g. (romaine, arugula, spinach, batavia lettuce, butterhead, iceberg),\nLentil, pea or cabbage soup 200g. (without the addition of potatoes)",
+    "dinner": "2 boiled eggs,\n1 orange or grapefruits,\nYogurt 200ml with a fat content of 1% or 2%"
+  }
+]

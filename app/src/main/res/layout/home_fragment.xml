@@ -374,7 +374,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/legbeginner"
+            android:background="@drawable/leg1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -411,7 +411,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/legbeginner2"
+            android:background="@drawable/leg2"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -448,7 +448,7 @@
         app:cardElevation="4dp">
 
         <RelativeLayout
-            android:background="@drawable/legadvanced"
+            android:background="@drawable/leg3"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView

@@ -89,7 +89,7 @@ public class constants {
    public static String guide = " <h3><b>1. Warm up</b>\n" +
            "        </h3>\n" +
            "        <p>\n" +
-           "  <img src ='guide1.png'>\n" +
+           "  <img src ='guide1.png'><br/>" +
            "\n* Most warm up don't take very long, just two-three\n" +
            "minutes, five minutes tops. To benefit us the most a\n" +
            "warm-up should work the same muscles we will be\n" +
@@ -117,7 +117,7 @@ public class constants {
            "         2. Stretching\n" +
            "        </h4>\n" +
            "        <p>\n" +
-           "  <img src ='guide2.png'>\n" +
+           "  <img src ='guide2.png'><br/>" +
            "\n* Everyone can get flexible if they work at it. Some\n" +
            "people have a natural gift for flexibility others have to\n" +
            "struggle to gain every little bit but everyone can get\n" +
@@ -160,7 +160,7 @@ public class constants {
            "         4. Best time to workout\n" +
            "        </h4>\n" +
            "        <p>\n" +
-           "  <img src ='chest.jpg'>\n"+
+           "  <img src ='chest.png'><br/>"+
            "\n* 1. Morning workout\n" +
            "-Many people find morning workouts to be their\n" +
            "preferred choice for a variety of reasons. One of the\n" +
