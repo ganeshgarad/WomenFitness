@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Female Home Workout</string>
+    <string name="app_name">Women Fitness</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Female Home Workout</string>
@@ -31,7 +31,7 @@
     <string name="summary_support">Got any queries? We are happy to help!</string>
     <string name="summary_privacy">Read our privacy policy</string>
     <string name="summary_invite_friends">Share with Your Friends</string>
-    <string name="summary_reminder">Set reminder to reminde workout every day</string>
+    <string name="summary_reminder">Set reminder to remind workout every day</string>
     <string name="summary_restart_progress">Reset all your progress</string>
     <string name="summary_delete_alldata">Complete resets all settings</string>
     <string name="title_version">Version</string>
@@ -55,19 +55,8 @@
     <string name="pref_header_general">General</string>
     <string name="url_faq">https://web.whatsapp.com/</string>
 
-
-    <!-- for real-->
-
-       <string name="ApAdId">ca-app-pub-2953492676760965~8429074653</string>
-       <string name="interstitialunitid">ca-app-pub-2953492676760965/3218956489</string>
-       <string name="bannerunitid">ca-app-pub-2953492676760965/5802911313</string>
-       <string name="nativeid">ca-app-pub-2953492676760965/6461386860</string>
-
-
-    <!--for test-->
-
-<!--    <string name="ApAdId">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="interstitialunitid">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="bannerunitid">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>-->
+    <string name="ApAdId">ca-app-pub-3940256099942544~334751171</string>
+    <string name="interstitialunitid">ca-app-pub-3940256099942544/103317371</string>
+    <string name="bannerunitid">ca-app-pub-3940256099942544/630097811</string>
+    <string name="nativeid">ca-app-pub-3940256099942544/224769611</string>
 </resources>

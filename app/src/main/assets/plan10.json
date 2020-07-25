@@ -1,0 +1,457 @@
+[
+     {
+    "calories": 12.63,
+    "display": "Fire Hydrant Left",
+    "id": 1,
+    "turns": "20",
+    "name": "fire_hydrant_left.gif",
+    "url": "xctF7TdSlnY",
+    "info":"",
+    "howTo":"tart on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg to the side at a 90 degree angle.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Fire Hydrant Right",
+    "id": 2,
+    "turns": "20",
+    "name": "fire_hydrant_right.gif",
+    "url": "xctF7TdSlnY",
+    "info":"",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg to the side at a 90 degree angle.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Glute Bridge",
+    "id": 3,
+    "turns": "30",
+    "name": "glute_bridge.gif",
+    "url": "WowARnE-p0s",
+    "info":"",
+    "howTo":"Bend your knees and put your feet flat on the ground just close enough that you can graze your heels with your fingertips when you stretch your arms down by your side. Your feet should be about hip-width apart.Bend your elbows to 90 degrees so that only your upper arm is on the ground.Then drive up through your heels and upper back to lift your glutes off the ground. Drive your hips up as high as possible, squeezing the glutes hard. Keep your belly button drawn in so you don’t hyper extend your back Do not push backward off your heels. Make sure you are driving straight up and that your knees aren’t caving in.Squeeze your glutes for second or two at the top and lower all the way back down to the ground before repeating.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Hip Thrust",
+    "id": 4,
+    "turns": "28",
+    "name": "hip_thrust.gif",
+    "url": "MbgCVewqWio",
+    "info":"",
+    "howTo":"Sit on the floor facing away from a bench.Hold a pair of dumbbells at the crease in your hips, resting the weights on your body.Drive through your heels to lift your hips to the sky as your upper back stays in place on the bench.Pause and squeeze your glutes at the top",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Hop Side To Side",
+    "id": 5,
+    "turns": "30",
+    "name": "hop_side_to_side.gif",
+    "url": "NTqBhdYuT6M",
+    "info":"",
+    "howTo":"Step 1: Begin in an athletic stance with feet about hip-width apart.\n Step 2: Begin by hopping to the right, and then immediately hopping to the left once your feet touch the ground.\nStep 3: Each direction is one rep.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Lunges Left",
+    "id": 6,
+    "turns": "28",
+    "name": "lunges_left1.gif",
+    "url": "yN6UpH388Dg",
+    "info":"",
+    "howTo":"Stand in pyramid position your feet chestwide, the left foot in front. Get down in a deep lunge, push back up with your front leg and repeat.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Lunges Right.gif",
+    "id": 7,
+    "turns": "28",
+    "name": "lunges_right",
+    "url": "yN6UpH388Dg",
+    "info":"",
+    "howTo":"Stand in pyramid position your feet chestwide, the right foot in front. Get down in a deep lunge, push back up with your front leg and repeat.",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kick Left",
+    "id": 8,
+    "turns": "20",
+    "name": "plank_back_kick_left1.gif",
+    "url": "ELJ-14EdAHM",
+    "info":"",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your left leg off the ground to around a 45-degree angle.Lower your left leg back down to the ground before repeating the movement for your right leg.",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kicks Right",
+    "id": 9,
+    "turns": "20",
+    "name": "plank_back_kick_right1.gif",
+    "url": "ELJ-14EdAHM",
+    "info":"",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your right leg off the ground to around a 45-degree angle.Lower your right leg back down to the ground before repeating the movement for your left leg.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Plie Squat",
+    "id": 10,
+    "turns": "24",
+    "name": "plie_squat1.gif",
+    "url": "KcK5vxSH8yw",
+    "info":"",
+    "howTo":"Stand with feet slightly wider than shoulder distance apart and toes turned out into a 45 degree angle.Bend knees and lower your torso, keeping your back straight and abs tight.Squeeze your glutes and come to standing position.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+   {
+    "calories": 12.63,
+    "display": "Side Skaters",
+    "id": 11,
+    "turns": "28",
+    "name": "side_skaters1.gif",
+    "url": "4RuxhVJ4-pg",
+    "info":"",
+    "howTo":"Start in a small squat. Jump sideways to the left, landing on your left leg. Bring your right leg behind to your left ankle, and don't let it touch the floor.Reverse direction by jumping to the right with your right leg. This completes one rep",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Single Leg Bridges Left",
+    "id": 12,
+    "turns": "22",
+    "name": "single_leg_bridge_left1.gif",
+    "url": "oGZcBf8KlK8",
+    "info":"",
+    "howTo":"Lie down on the floor, your feet are laid flat, two knees bent. Two hands are fully extended by your sides, facing down.Raise your right leg up as high as possible, try to make it straight if you can.Forcefully press your left heel to the ground, extend your hips and lift your butt off the ground. Exhale and make it straight line from your chest to abs and left knee.Extend as much as possible, pause at the top 1-2 seconds. Inhale and lower down.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Single Leg Bridges Right",
+    "id": 13,
+    "turns": "22",
+    "name": "single_leg_bridge_right.gif",
+    "url": "oGZcBf8KlK8",
+    "info":"",
+    "howTo":"Lie down on the floor, your feet are laid flat, two knees bent. Two hands are fully extended by your sides, facing down.Raise your left leg up as high as possible, try to make it straight if you can.Forcefully press your right heel to the ground, extend your hips and lift your butt off the ground. Exhale and make it straight line from your chest to abs and right knee.Extend as much as possible, pause at the top 1-2 seconds. Inhale and lower down.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Single Leg Deadlift Left",
+    "id": 14,
+    "turns": "30",
+    "name": "single_leg_deadlift_left1.gif",
+    "url": "HtHxnWmMgzM",
+    "info":"",
+    "howTo":"Stand with both feet under hips. Shift your weight to the right leg, which should be nice and straight with a soft bend in the knee. Begin to drive your left foot back like you're stamping the bottom of your foot on the wall behind you, keeping your leg straight. Simultaneously, slowly start hinging at the waist, tipping your torso forward until it’s almost parallel to the floor. Keep your arms straight, at shoulder height, and perpendicular to the floor at all times. At the bottom of the position, your body should be in a straight line from the top of your head to the bottom of your left foot. Then, begin pulling your left leg forward while keeping it straight, and lift your torso up until you’re standing again. That’s one rep. Repeat all reps on one side, then switch legs.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Single Leg Deadlift Right",
+    "id": 15,
+    "turns": "30",
+    "name": "single_leg_deadlift_right.gif",
+    "url": "HtHxnWmMgzM",
+    "info":"",
+    "howTo":"Stand with both feet under hips. Shift your weight to the right leg, which should be nice and straight with a soft bend in the knee. Begin to drive your left foot back like you're stamping the bottom of your foot on the wall behind you, keeping your leg straight. Simultaneously, slowly start hinging at the waist, tipping your torso forward until it’s almost parallel to the floor. Keep your arms straight, at shoulder height, and perpendicular to the floor at all times. At the bottom of the position, your body should be in a straight line from the top of your head to the bottom of your left foot. Then, begin pulling your left leg forward while keeping it straight, and lift your torso up until you’re standing again. That’s one rep. Repeat all reps on one side, then switch legs.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Squat With Jumping Jacks",
+    "id": 16,
+    "turns": "20",
+    "name": "squat_jumping_jacks1.gif",
+    "url": "VZF5GWd7t9E",
+    "info":"",
+    "howTo":"Still engaging your core, jump your feet back together, and raise your arms overhead. That's one rep. Continue without pausing, until time or reps are complete",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Squats",
+    "id": 17,
+    "turns": "18",
+    "name": "squats1.gif",
+    "url": "aclHkVaku9U",
+    "info":"",
+    "howTo":"tand with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor. Your knees should be extended in the same direction as your tiptoes.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+
+  {
+    "calories": 12.63,
+    "display": "Triceps Dips On Floor",
+    "id": 18,
+    "turns": "24",
+    "name": "triceps_dips_floor1.gif",
+    "url": "ufJ08eTsB80",
+    "info":"",
+    "howTo":"Sit on the ground with your legs in front of you and feet flat on the floor. Place your palms on the ground behind you, directly under your shoulders, fingers facing toward your body. Straighten your arms to lift your legs and butt off the ground. Then, bend your elbows to lower back down as far as you can go",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Triceps Dips Elevated Leg",
+    "id": 19,
+    "turns": "24",
+    "name": "triceps_dips_elevated_leg1.gif",
+    "url": "UbIVpeSdBTs",
+    "info":"",
+    "howTo":"Sit on the edge of a chair with your hands just outside of your hips, fingers forward.Rest your feet on another chair in front of you, keeping your legs straight Bend your elbows as far as you can go down preferably around 90 degrees, lowering your hips towards the floor, keeping them parallel to the chair.Press body up by extending your elbows.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Push Up Knee",
+    "id": 20,
+    "turns": "30",
+    "name": "push_up_knee1.gif",
+    "url": "utzhPQuXWcA",
+    "info":"",
+    "howTo":"Start at the top of the push up position with your hands on the floor, arms straight and underneath your shoulders. Step your knees back behind you so that there is a straight line through your body from your knees up to your head. Engage your glutes, tense your legs and brace your core to keep your body rigid.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Cobra Push Up",
+    "id": 21,
+    "turns": "22",
+    "name": "cobra_push_up.gif",
+    "url": "b6O70RsL-x0",
+    "info":"",
+    "howTo":"Step 1: Lay down on the floor with your chest and thighs flat to the ground.\n Step 2: Place your palms against the ground outside your shoulders.\nStep 3: Keep the lower half of your body against the ground but push your upper body up off the ground",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Single Arm Side Lying Push Up Left",
+    "id": 22,
+    "turns": "30",
+    "name": "single_arm_side_push_up_left1.gif",
+    "url": "Dcyw4pvHIfU",
+    "info":"",
+    "howTo":"Start off by laying down on your side with straight legs. Then place the hand from your top arm down on the floor in front of your chest. Bend this arm at your elbow. Wrap your bottom arm across your stomach so that it is tucked out of the way.Then push into your top arm hand and straighten that arm to lift your upper body up off the floor, whilst keeping your hips and legs on the floor. Perform half the time on one side with one arm pushing, then at half way, switch your body around to lay on your other side and use your other arm to push up",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Single Arm Side Lying Push Up Right",
+    "id": 23,
+    "turns": "30",
+    "name": "single_arm_side_push_up_right.gif",
+    "url": "Dcyw4pvHIfU",
+    "info":"",
+    "howTo":"Start off by laying down on your side with straight legs. Then place the hand from your top arm down on the floor in front of your chest. Bend this arm at your elbow. Wrap your bottom arm across your stomach so that it is tucked out of the way.Then push into your top arm hand and straighten that arm to lift your upper body up off the floor, whilst keeping your hips and legs on the floor. Perform half the time on one side with one arm pushing, then at half way, switch your body around to lay on your other side and use your other arm to push up",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Wall Push Ups",
+    "id": 24,
+    "turns": "30",
+    "name": "wall_push_ups1.gif",
+    "url": "YB0egDzsu18",
+    "info":"",
+    "howTo":"Stand in front of a wall one big step away from it. Then put your hands out straight towards the wall and lean against it. Slowly bend your elbows and press your upper body towards the wall. Push back and repeat the exercise. Remember to keep your body straight.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  }
+]

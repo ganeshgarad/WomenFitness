@@ -1,0 +1,401 @@
+[
+     {
+    "calories": 12.63,
+    "display": "Bird Dog",
+    "id": 1,
+    "turns": "30",
+    "name": "bird_dog.gif",
+    "url": "-LRjkbEy-qU",
+    "info":"",
+    "howTo":"Begin on all fours with your hands directly under your shoulders and your knees directly under your hips.Pull your abs in to your spine. Keeping your back and pelvis still and stable, reach your right arm forward and left leg back. Don't allow the pelvis to rock side to side as you move your leg behind you. Focus on not letting the rib cage sag toward the floor. Reach through your left heel to engage the muscles in the back of the leg and your butt.Return to the starting position, placing your hand and knee on the floor. Repeat on the other side to complete one rep.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Half Kneeling Thread The Needle Left",
+    "id": 2,
+    "turns": "20",
+    "name": "half_kneeling_thread_needle_left.gif",
+    "url": "WfMdeMmR6vI",
+    "info":"",
+    "howTo":"Thread the needle to loosen your midback and stretch your shoulders. As you reach up, push the floor away through your supporting arm to turn your breastbone. Breathe in and reach under to stretch.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Half Kneeling Thread The Needle Right",
+    "id": 3,
+    "turns": "20",
+    "name": "half_kneeling_thread_needle_right.gif",
+    "url": "",
+    "info":"",
+    "howTo":"Thread the needle to loosen your midback and stretch your shoulders. As you reach up, push the floor away through your supporting arm to turn your breastbone. Breathe in and reach under to stretch.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Fire Hydrant Left",
+    "id": 4,
+    "turns": "20",
+    "name": "fire_hydrant_left.gif",
+    "url": "xctF7TdSlnY",
+    "info":"",
+    "howTo":"tart on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg to the side at a 90 degree angle.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Fire Hydrant Right",
+    "id": 5,
+    "turns": "20",
+    "name": "fire_hydrant_right.gif",
+    "url": "xctF7TdSlnY",
+    "info":"",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg to the side at a 90 degree angle.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "id": 6,
+    "unit": 1,
+    "turns": "30",
+    "calories": 12.63,
+    "display": "Hamstring Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "hamstring_stretch.gif",
+    "url": "Eg6M42FgDF4",
+    "info":"Shoulder and back stretch is an effective exercise that treats your lower back pain and leg pain.",
+    "howTo":"Stand straight and extend right leg out in front of you in a position where foot heel is on the floor and toe towards the roof. Bend your back leg knee while supporting the knee with both palms. Slowly put weight on back leg knee while straightening your front leg until a stretch is felt in the hamstrings. Hold the stretch then repeat with left leg.",
+    "correctForm":"Keep your knees straight while stretching leg\nKeep your lower back and hips flat",
+    "isOnline": false
+  },
+  {
+    "id": 7,
+    "unit": 1,
+    "turns": "30",
+    "calories": 12.63,
+    "display": "Downward Upward Dog",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "downward_upward_dog.gif",
+    "url": "1N5Di9l84Uc",
+    "info":"Downward upward dog is an exercise that primarily targets your back, hamstrings, chest and shoulders.",
+    "howTo":"Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
+    "correctForm":"Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
+    "isOnline": false
+  },
+   {
+    "id": 8,
+    "unit": 1,
+    "turns": "30",
+    "calories": 12.63,
+    "display": "Cat Cow Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "cat_cow_stretch.gif",
+    "url": "kqnua4rHVVA",
+    "info":"Cat cow stretch is core exercise that brings flexibility to the spine. It helps relieving back pain.",
+    "howTo":"Get down on the floor with your hands and knees in a view aligning your palms underneath shoulders and knees underneath hips. Curl your toes under, inhale and drop your belly towards the floor meanwhile lift your chin and chest upwards. Then release top of your feet to the floor, exhale and round your back dropping your head and tailbone down and pulling your belly inwards and drop your head. Hold the stretch the get back to starting position.",
+    "correctForm":"Inhale and exhale respectively during cat moves\nDon’t overuse your lower back muscles",
+    "isOnline": false
+  },
+   {
+    "id": 9,
+    "unit": 1,
+    "turns": "30 Sec",
+    "calories": 12.63,
+    "display": "Cobra Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "cobra_stretch.gif",
+    "url": "JDcdhTuycOI",
+    "info":"Cobra stretch helps strengthening muscles of arms, shoulders, chest and abdominals.",
+    "howTo":"Lie face down on the floor with parallel thigh placement and place your hands underneath your shoulders. Start straightening your arms with chest lift and maintain a comfortable height of torso. Relax and hold the stretch upwards.",
+    "correctForm":"Tit head back and look upkeep\nKeep your abs and back relaxed",
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Chest Expansions",
+    "id": 10,
+    "unit": 1,
+    "turns": "28",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "chest_expansion.gif",
+    "url": "zNAvGhbe7Ow",
+    "info":"Chest expansion is an effective exercise that primarily targets chest, shoulders and upper back.",
+    "howTo":"Stand straight and extend arms to your sides. Stretch your arms out to your sides and bring them back together to starting position. Do the same motion multiple times.",
+    "correctForm":"Keep your spine straight through entire motion\nKeep your belly tight",
+    "isOnline": false
+  },
+  {
+    "id": 11,
+    "unit": 1,
+    "turns": "30",
+    "calories": 12.63,
+    "display": "March Jacks",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "march_jacks1.gif",
+    "url": "qIDC7Ttfjn0",
+    "info":"March jacks is a warm up exercise that primarily targets your abs, shoulders and thigh muscles.",
+    "howTo":"Stand straight and raise arms upwards parallel to your body with one thigh lift with knee bend that nearly touches your torso. Then bring your arms and leg back together to starting position and repeat the motion with other leg.",
+    "correctForm":"Keep your body in straight position, don’t arch your back\nKeep your head and neck straight",
+    "isOnline": false
+  },
+   {
+    "calories": 12.576,
+    "display": "V Ups",
+    "id": 12,
+    "turns": "30",
+    "name": "v_ups1.gif",
+    "url": "iP2fjvG0g3w",
+    "info":"V-Ups is a great core body exercise that fully engages your abdominal muscles and strengthen your abs, obliques and back muscles.",
+    "howTo":"Lying your back with both legs straight and extend your arms over your head. Lift your legs and upper body simultaneously off the floor and reach towards your feet. Return slowly back down the starting position.",
+    "correctForm":"Keep your torso and legs straight, don’t arch your back.\nLift your legs up to 45 degree angle",
+    "tts": [
+      {
+        "text": "V Ups targets core upper and lower abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.576,
+    "display": "Side Plank Left",
+    "id": 13,
+    "turns": "30 Sec",
+    "name": "side_plank_left1.gif",
+    "url": "N_s9em1xTqU",
+    "info":"Side plank is a core exercise that strengthen your shoulders, obliques and legs from hips to heels.",
+    "howTo":"Lie down on your side with feets together and place your forearm right under the shoulder. Raise your hips until your body is in a straight line from head to feet. Hold the position without dropping your hips down the floor.",
+    "correctForm":"Form your body a straight line from shoulders to ankles\nMake sure your hips are going up to the sky",
+    "tts": [
+      {
+        "text": "Side Plank very effectively targets obliques and hip abductor muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.576,
+    "display": "Side Plank Right",
+    "id": 14,
+    "turns": "30 Sec",
+    "name": "side_plank_right.gif",
+    "url": "6cRAFji80CQ",
+    "info":"Side plank is a core exercise that strengthen your shoulders, obliques and legs from hips to heels.",
+    "howTo":"Lie down on your side with feets together and place your forearm right under the shoulder. Raise your hips until your body is in a straight line from head to feet. Hold the position without dropping your hips down the floor.",
+    "correctForm":"Form your body a straight line from shoulders to ankles\nMake sure your hips are going up to the sky",
+    "tts": [
+      {
+        "text": "Side Plank very effectively targets obliques and hip abductor muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.786,
+    "display": "Reverse Crunches",
+    "id": 15,
+    "turns": "30",
+    "name": "reverse_crunches1.gif",
+    "url": "gAyTBB4lm3I",
+    "info":"Reverse crunch is a core exercise that primarily targets your abs, hips and lower back.",
+    "howTo":"Lying your back down the ground and place the hands underneath your lower back core. Hover your legs straight above, raise your hips off the floor and crunch them inward. Then slowly lower your legs back towards the floor and repeat the same process.",
+    "correctForm":"Hold your feet together and pull them in the air at 90 degree angle\nHips and lower back should raise up off the floor",
+    "tts": [
+      {
+        "text": "Reverse Crunches targets lower and core abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 13.876,
+    "display": "Russian Twist",
+    "id": 16,
+    "turns": "30",
+    "name": "russian_twist1.gif",
+    "url": "NeAtimSCxsY",
+    "info":"Russian twist is a core workout that engages all the abdomen muscles. It strengthens the rectus abdominis, internal obliques and external obliques.",
+    "howTo":"Sit on the floor with knees bent and legs up as in a V sit up position. Lock your hands together and twist them side to side with multiple repetitions then roll it back down.",
+    "correctForm":"Hold your feets together and slightly above the ground\nSwing arms from one side to another in a twisting motion",
+    "tts": [
+      {
+        "text": "Russian Twists works obliques and lower abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.4287,
+    "display": "Plank Jacks",
+    "id": 17,
+    "turns": "24",
+    "name": "plank_jacks1.gif",
+    "url": "xcBz0TtHqWI",
+    "info":"Plank jack is cardio exercise that primarily targets abs and strengthens the upper body, lower body and core. This exercise also helps in cardiovascular endurance, accelerate the heart rate and burn more calories.",
+    "howTo":"Get settled in a pushup position and make your body into a straight line from head to toe. Press your toes forcefully into the floor and jump your feets outwards to spread your legs out without moving your torso. Then jump again with your feets and bring your legs back together. Make sure to keep your lower abs tight as you jack your feet.",
+    "correctForm":"Keep your body in straight position, don’t arch your back\nAs you move your legs outwards, don’t allow your torso to rotate.",
+    "tts": [
+      {
+        "text": "Plank Jacks targets core abs hip flexors and calf muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 13.04,
+    "display": "Plank Jump Ins",
+    "id": 18,
+    "turns": "20",
+    "name": "plank_jump_ins1.gif",
+    "url": "b-83f_fZ-H0",
+    "info":"Plank jump ins is an advanced exercise like burpees that works on your abs and create core stability.",
+    "howTo":"Get settled in a pushup position and wide your feets parallel to your shoulder width. Then jump your feets towards hands so your legs can unfurl and back again. This completes on repetition.",
+    "correctForm":"Keep your hips at the same height as your shoulders\nDon’t arch your back",
+    "tts": [
+      {
+        "text": "Plank Jump Ins targets the core and lower abs muscles in addition to lower back and glutes",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+    {
+    "calories": 12.045,
+    "display": "Push Up Plank Leg Raises",
+    "id": 19,
+    "turns": "30 Sec",
+    "name": "one_legged_push_up_plank1.gif",
+    "url": "CnS6S1e8ecM",
+    "info":"",
+    "howTo":"Get into a plank position on your mat. Keep your arms straight and abs engaged, while keeping the whole body in a straight line. Inhale and lower the hips while moving the torso forward so shoulders are over hands. Lift your right leg up and hold for one breath. Exhale and lower the leg. Raise your hips and return to starting position.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "Push Up Plank with leg raises targets core abs chest lower back and glutes muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 20,
+    "turns": "30",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 15.5745,
+    "display": "Plank",
+    "id": 21,
+    "turns": "30 Sec",
+    "name": "plank1.gif",
+    "url": "3FOU8F9LMt0",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. You should feel tension in your core, hamstring and glutes.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Plank targets the core and upper abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  }
+]

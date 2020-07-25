@@ -35,7 +35,7 @@
                 android:textAllCaps="true"
                 android:layout_marginTop="20dp"
                 android:padding="10dp"
-                android:text="full body workout"
+                android:text="Weight Loss Workout "
                 android:textColor="#FFF"
                 android:textStyle="bold"
                 android:textSize="22sp"

@@ -1,0 +1,382 @@
+[
+     {
+    "calories": 13.23,
+    "display": "Bicycle Crunches",
+    "id": 1,
+    "turns": "20",
+    "name": "bicycle_crunches.gif",
+    "url": "9FGilxCbdz8",
+    "info":"Bicycle crunches is calisthenics exercise that targets the abs, hip flexors and obliques.",
+    "howTo":"Lie flat on the floor with your lower back pressed to the ground and bring your hands behind the head. Then in a single act of motion try to bring your left knee in towards your chest and lift your shoulder blades off the ground. Keep your right leg in the air and as straight as possible. Then bring your right elbow towards the left knee as much as possible. Make sure your rib cage is moving and not just your elbows. Now do this motion in reverse; Left elbow to right knee. This will complete one rep.\n\nPlease do this exercise on a mat!",
+    "correctForm":"Do not try to touch your elbows to your knees\nDon’t put much strain on your neck",
+    "tts": [
+      {
+        "text": "This exercise targets all abs muscle groups",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Burpees",
+    "id": 2,
+    "turns": "22",
+    "name": "burpees.gif",
+    "url": "dZgVxmf6jkA",
+    "info":"Burpees is a plyometric exercise that targets the chest, shoulders, core and legs while also improving your cardiovascular strength.",
+    "howTo":"Start with your feet shoulder width apart. Bend down and put your hands on the floor. Kick both of your legs backwards simultaneously to go into a push up position. Lower your chest to ground as doing a push up, then jump both your feet back in simultaneously. Stand up and do a jump with both your hands facing the ceiling. Remember to do a soft landing.",
+    "correctForm":"Do not Arch your lower back when coming out of the push up position\nDo not skip your squat when moving from standing to burpee position",
+    "tts": [
+      {
+        "text": "Burpees is a highly effective fat burning exercise It raises heart rate and boosts body metabolism",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 13.6,
+    "display": "Circle Crunches",
+    "id": 3,
+    "turns": "18",
+    "name": "circle_crunches.gif",
+    "url": "Zs3UsIOXgy0",
+    "info":"Circle crunches work your abs from every direction. The circular motion forces you to isometrically hold your core tight which adds extra burn.",
+    "howTo":"Lie down with your back flat on the floor. Bring your knees and ankles close together. Make a 90 degree angle between thigh and the leg. Put your hands behind your head with elbows wide. Lift your chest up and make a circular motion with your abs, Think of moving from one hip to the other while making a big circle in the air. Then repeat this motion. Keep your lower back touching the floor at all times.\n\nPlease do this exercise on a mat!",
+    "correctForm":"Bring the knees and ankles close together\nLift the shoulder blades off the floor and do not try to pull with your neck. The circular movement should come from abs and chest and not the neck",
+    "tts": [
+      {
+        "text": "Circle Crunches is a highly effective abs exercise it targets all abs muscles group",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 14.12,
+    "display": "Sit up Crunches",
+    "id": 4,
+    "turns": "18",
+    "name": "crunches.gif",
+    "url": "1fbU_MkV7NE",
+    "info":"The crunch is a calisthenics exercise that primarily targets the abs and hip flexor muscles.",
+    "howTo":"Lie flat with your back on the floor with your knees bend making a 90 degree angle between the thigh and the legs. Put your hands behind your head. Tuck your head slightly forward and focus on using the abdominal strength to curl your upper body off the floor. Bring your chest all the way up and towards your knees as in a semi seated position. Exhale as you rise and inhale as go back to the floor.",
+    "correctForm":"Use only your abdominal strength to bring your upper body off the floor\nWhile going back, do not just throw your chest back to the floor. Instead",
+    "tts": [
+      {
+        "text": "Sit Up Crunches target core abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.045,
+    "display": "Elbow Plank",
+    "id": 5,
+    "turns": "30 Sec",
+    "name": "elbow_plank.gif",
+    "url": "zuHZyVg3zRA",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. Do not let your hips drop or arch your back.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Elbow Plank targets upper and lower abs along with shoulder and Lat muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 13.04,
+    "display": "Flutter Kicks",
+    "id": 6,
+    "turns": "30",
+    "name": "flutter_kicks.gif",
+    "url": "ANVdMDaYRts",
+    "info":"Flutter Kicks primarily target your core abs muscles and your hip flexors to some extent.",
+    "howTo":"Lie flat on the floor and place your hands underneath your glutes. While keeping your legs straight, raise your heels off the ground. Raise your right foot up a few inches and then bring it down. As you are bringing your right foot down, start raising your left foot up. Keep doing this in an alternate motion between right and left foot.",
+    "correctForm":"Keep your legs as straight as possible",
+    "tts": [
+      {
+        "text": "Flutter Kicks works lower abs and hip flexor muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.05,
+    "display": "High Knees",
+    "id": 7,
+    "turns": "30",
+    "name": "high_knees.gif",
+    "url": "whHxoB-AFYQ",
+    "info":"High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
+    "howTo":"This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
+    "correctForm":"Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
+    "tts": [
+      {
+        "text": "High Knees is a very good full body cardio vascular exercise very effective for fat burning",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.02,
+    "display": "Jump Pushup",
+    "id": 8,
+    "turns": "30",
+    "name": "jump_push_up.gif",
+    "url": "VzqjWuarzZQ",
+    "info":"",
+    "howTo":"Begin in a high plank position with your hands directly below your shoulders and your back, hips, and legs tight and straight. Bending at your elbows, lower your body until your chest touches the ground. From here,  bend your knees slightly, then explode up with your arms and legs so both your hands and feet come off the ground. That’s one rep.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "Jump Push Up targets chest and triceps muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 13.54,
+    "display": "Jumping Jacks",
+    "id": 9,
+    "turns": "20",
+    "name": "jumping_jacks.gif",
+    "url": "XR0xeuK5zBU",
+    "info":"Jumping jack is a cardiovascular, full body warm up exercise as it helps loosening of the muscles.",
+    "howTo":"Stand upright. Your feet should be together and your hands by your sides. Begin exercise by raising both your hands simultaneously, up and above your head. While raising your hands jump off the floor and move your feet apart to a distance around twice that of shoulder width.\nWith your hands at the top and feet spread apart, immediately reverse your movement back to the starting position. Do this exercise in a fluid motion.",
+    "correctForm":"Try to synchronize the movement of your hands with your feet\nDo not pause during this exercise",
+    "tts": [
+      {
+        "text": "Jumping Jacks is a very good full body warm up exercise",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 14.588,
+    "display": "Leg Raises",
+    "id": 10,
+    "turns": "20",
+    "name": "leg_raises.gif",
+    "url": "JB2oyawG9KI",
+    "info":"Leg raises is a pilates and calisthenics exercise for improving core strength. It targets core,abs and hip flexor muscles.",
+    "howTo":"Lay down flat on the floor with your hands underneath your glutes. Keep your feet straight and keep them together. While keeping your legs straight, lift both your legs in the air together. Bring both the legs at 90 degrees from the floor, if possible. Once at the top, slowly start lowering both your legs into the starting position.",
+    "correctForm":"Do not bend your knees and keep your legs straight\nDo not use jerking motion to lift your legs",
+    "tts": [
+      {
+        "text": "Leg Raises targets Hip Flexors and Lower Abs Muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.45,
+    "display": "Lunge Step Ups",
+    "id": 11,
+    "turns": "30",
+    "name": "lunge_step_ups.gif",
+    "url": "KM6-6xTRpow",
+    "info":"Lunge Step up is a lower body exercise that primarily targets the quadriceps muscles. this exercise also targets calves, glutes and hamstrings.",
+    "howTo":"Start off in a basic lunge position. Keep one of your foot firmly planted on the ground. Then move out of the lunge position by driving the knee on the other leg forward. Bring the leg up until your thigh is horizontal. Once in the horizontal position, bring the leg back to it’s starting position.",
+    "correctForm":"Keep your body upright throughout the exercise\nMaintain proper balance. Do this exercise in a controlled manner",
+    "tts": [
+      {
+        "text": "Lunge Step Ups is a Lower Body Exercise which targets quadriceps and hamstring muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 13.045,
+    "display": "Moving Plank",
+    "id": 12,
+    "turns": "30",
+    "name": "moving_plank1.gif",
+    "url": "sTn_8M0uFV8",
+    "info":"Moving plank is an advanced version of the elbow plank. Moving plank targets abs, shoulder and tricep muscles.",
+    "howTo":"Go down to the floor. Like in an elbow plank position, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. This is the elbow plank position. To do moving plank, move your upper body weight from your elbow to your hands, while keeping plank position. You will have to do this one hand at a time.\nOnce you have moved from elbow plank position to a plank position with your body weight on your hands, try to reverse the movement by going back to the elbow plank position. Again do this one hand a time. This full movement constitute one rep.",
+    "correctForm":"Make sure your elbows and hands are underneath shoulders\nPrevent your hips from dropping and keep them still",
+    "tts": [
+      {
+        "text": "Moving planks very effectively targets core abs chest and shoulder muscles all in a single exercise",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 15.5745,
+    "display": "Plank",
+    "id": 13,
+    "turns": "30 Sec",
+    "name": "plank1.gif",
+    "url": "3FOU8F9LMt0",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. You should feel tension in your core, hamstring and glutes.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Plank targets the core and upper abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.574,
+    "display": "Push Ups",
+    "id": 14,
+    "turns": "20",
+    "name": "push_up1.gif",
+    "url": "rjc0O7OXS3g",
+    "info":"Pushup is an effective exercise that primarily strengthens your chest, abs and core body muscles.",
+    "howTo":"Position your hands and arms right below your shoulders while holding your body in a plank position. Lower your body until your chest is two inches above the floor. Then push your torso away from the ground until your arms lock, then repeat.",
+    "correctForm":"Keep your body in a straight position, don’t arch your back\nKeep your core engaged throughout the entire movement",
+    "tts": [
+      {
+        "text": "Push Up is very effective exercise for upper body conditioning and core abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+   {
+    "calories": 12.786,
+    "display": "Reverse Crunches",
+    "id": 15,
+    "turns": "20",
+    "name": "reverse_crunches1.gif",
+    "url": "gAyTBB4lm3I",
+    "info":"Reverse crunch is a core exercise that primarily targets your abs, hips and lower back.",
+    "howTo":"Lying your back down the ground and place the hands underneath your lower back core. Hover your legs straight above, raise your hips off the floor and crunch them inward. Then slowly lower your legs back towards the floor and repeat the same process.",
+    "correctForm":"Hold your feet together and pull them in the air at 90 degree angle\nHips and lower back should raise up off the floor",
+    "tts": [
+      {
+        "text": "Reverse Crunches targets lower and core abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 13.876,
+    "display": "Russian Twist",
+    "id": 16,
+    "turns": "24",
+    "name": "russian_twist1.gif",
+    "url": "NeAtimSCxsY",
+    "info":"Russian twist is a core workout that engages all the abdomen muscles. It strengthens the rectus abdominis, internal obliques and external obliques.",
+    "howTo":"Sit on the floor with knees bent and legs up as in a V sit up position. Lock your hands together and twist them side to side with multiple repetitions then roll it back down.",
+    "correctForm":"Hold your feets together and slightly above the ground\nSwing arms from one side to another in a twisting motion",
+    "tts": [
+      {
+        "text": "Russian Twists works obliques and lower abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 15.7456,
+    "display": "Scissors",
+    "id": 17,
+    "turns": "20",
+    "name": "scissors1.gif",
+    "url": "WoNCIBVLbgY",
+    "info":"Scissors is a core exercise that primarily targets abs, hip flexors and transverse abdominis that maintain your stability, posture and balance.",
+    "howTo":"Lying your back with both legs straight, put your hands underneath your lower back core for support. Raise your legs to 45 degree angle, spread them out to the side and then cross one leg over the other in the middle. Then bring them back to starting position completes one repetition.",
+    "correctForm":"Raise your chin towards the chest to engage your upper abs\nPress lower back over the floor",
+    "tts": [
+      {
+        "text": "Scissors strengthens core and lower abs muscles along with hip flexors and quadriceps",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "id": 18,
+    "unit": 1,
+    "turns": "30",
+    "calories": 12.63,
+    "display": "Torso Rotation",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "torso_rotation1.gif",
+    "url": "EnJTqLyH9ZI",
+    "info":"Torso rotation engages your core body muscles that primarily includes your abs and back.",
+    "howTo":"Stand upright with holding both hands together. Rotate your torso out at one side while placing your hands on top of each other. Then rotate back to opposite direction. This completes one repetition.",
+    "correctForm":"Keep lower body static\nKeep feets at shoulder width part",
+    "isOnline": false
+  },
+  {
+    "id": 19,
+    "unit": 1,
+    "turns": "30 Sec",
+    "calories": 12.63,
+    "display": "Cobra Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "cobra_stretch.gif",
+    "url": "JDcdhTuycOI",
+    "info":"Cobra stretch helps strengthening muscles of arms, shoulders, chest and abdominals.",
+    "howTo":"Lie face down on the floor with parallel thigh placement and place your hands underneath your shoulders. Start straightening your arms with chest lift and maintain a comfortable height of torso. Relax and hold the stretch upwards.",
+    "correctForm":"Tit head back and look upkeep\nKeep your abs and back relaxed",
+    "isOnline": false
+  },
+  {
+    "id": 20,
+    "unit": 1,
+    "turns": "30",
+    "calories": 12.63,
+    "display": "Shoulder Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "shoulder_stretch",
+    "url": "https://firebasestorage.googleapis.com/v0/b/workout-apps.appspot.com/o/LossWeight%2Fshoulder_stretch.gif?alt=media&token=13bf5510-74f1-45f7-9939-c8d4548ed188",
+    "info":"Shoulder and back stretch is an effective exercise that treats neck and shoulder pain. It also improves circulation in the shoulder joint and muscles.",
+    "howTo":"Stand straight while keeping your head up and raise arms straight up over your body and hold both hands together. Slowly stretch your torso towards right side of your body and hold on for couple of seconds. Then stretch torso towards left side of your body and then come back to starting position.",
+    "correctForm":"Exhale as you deepen the stretch, breath in as you release the stretch\nKeep shoulders in neutral position",
+    "isOnline": false
+  }
+]
